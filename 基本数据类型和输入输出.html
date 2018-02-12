@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>基本数据类型和输入输出</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<script language="javascript">
+	function a1()
+	{
+		window.open("C语言简介.html");
+	}
+</script>
+<style>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+a:link {text-decoration:none;}    /* 未被访问的链接 */
+a:visited {text-decoration:none;} /* 已被访问的链接 */
+a:hover {text-decoration:underline;}   /* 鼠标指针移动到链接上 */
+a:active {text-decoration:underline;}  /* 正在被点击的链接 */
+	
+a:link {color:#ff0000;}
+a:visited {color:#0000ff;}
+a:hover {color:#ffcc00;}
+</style>
+</head>
+
+<body>
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--waterfall">
+    <!-- Top row, always visible -->
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <style type="text/css">a {text-decoration: none;color:red}</style>
+      <a class="mdl-layout-title" href=".\index.html">EasyLearning在线学习网</a>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div>
+    </div>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href=".\HTML.html" target="_self">HTML基础教程</a>
+        <a class="mdl-navigation__link" href=".\C语言.html" target="_self">C语言教程</a>
+        <a class="mdl-navigation__link" href=".\操作系统.html" target="_self">操作系统</a>
+        <a class="mdl-navigation__link" href=".\数据结构.html" target="_self">数据结构</a>
+		<a class="mdl-navigation__link" href=".\计算机组成原理.html" target="_self">计算机组成原理</a>
+		<a class="mdl-navigation__link" href=".\计算机网络.html" target="_self">计算机网络</a>
+	  </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">小测验</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href=".\HTML测验.html" target="_self">HTML测验</a>
+      <a class="mdl-navigation__link" href=".\C语言测验.html" target="_self">C语言测验</a>
+      <a class="mdl-navigation__link" href=".\操作系统测验.html" target="_self">操作系统测验</a>
+      <a class="mdl-navigation__link" href=".\exe-2.html" target="_self">数据结构测验</a>
+      <a class="mdl-navigation__link" href=".\exe-2.html" target="_self">计算机组成原理测验</a>
+      <a class="mdl-navigation__link" href=".\exe-2.html" target="_self">计算机网络测验</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">  
+
+<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">C语言基础教程</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href=".\C语言简介.html" target="_self">C语言简介</a>
+      <a class="mdl-navigation__link" href=".\基本数据类型和输入输出.html" target="_self">基本数据类型和输入输出</a>
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">运算符和表达式</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">过程化语句</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">函数（一）</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">编译预处理</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">数组和指针</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">函数（二）</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">结构体、联合体、枚举</a>
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">线性表</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">文件</a> 
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">C++面向过程程序设计</a>
+      <a class="mdl-navigation__link" href=".\C语言.html" target="_self">进阶</a> 
+	</nav>
+    </div>
+    <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here -->
+    <h3>基本数据类型和输入输出</h3>
+    <!-- Accent-colored raised button with ripple -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: deeppink" onClick="a1()">上一节</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: deeppink" onClick="a2()">下一节</button>	
+    <hr>
+    <div class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col"><strong>C的数据类型</strong></h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>C是强类型语言，任何一个量都有类型。数据的存储以字节（byte）为单位，一字节是8位（二进制）。数据类型分为基本数据类型和非基本数据类型，基本数据类型如下：</h5>
+                   <ul>
+    	             <li>bool型：占用一个字节，但表示的范围只有true和false(或者1和0)，用来表示逻辑的真与假。</li>
+    	             <li>char型：占用一个字节，表示范围是-128~127，用来存放一个字符。后面会介绍，字符也都是以对应数值方式存储和计算的，只是显示出来是字符而已。</li>
+    	             <li>int型：占用四个字节，用来表示整数。bool型和字符型都是比较短的整形，他们表示的都是整数，只是表示范围不同而已。</li>
+    	             <li>float型和double型：用来表示浮点数，即小数，二者的区别在于精度和表示范围。计算浮点数表示范围的方法与整数不同。浮点数的表示范围取决于有多少位用于存放指数。</li>
+    	             <li>void型：是空类型。在学习函数和指针时，会发现void型的特殊用途。</li>
+                   </ul>
+                   <h5>C的非基本类型包括结构体、枚举、共同体、数组、指针、引用，这些会在后面章节中介绍。</h5>
+                </div>               
+              </div>
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col"><strong>量</strong></h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>每个量都属于某种数据类型</h5>
+                   <ul>
+    	             <li>常量：常量就是不能改变的量。数据本身就是一种字面常量，如+10，2.5.基本类型的常量有逻辑型、整型、浮点型、字符型、字符串型。</li>
+    	             <li>变量：变量是用来存放数组且可以修改的量。一般情况下，没有被初始化或赋值的变量是没有意义的值。变量只有在定义后才能使用。</li>
+    	             <li>标识符的命名规则：变量名、常量名以及后面将要介绍的结构体名、类名、函数名、命名空间名等通称为标识符。标识符的选取需满足下面条件：只能包含52个英文字母、阿拉伯数字和下划线“_”,且只能以英文字母或下划线开头。</li>
+    	                              <table border="1">
+                   <caption>保留字（关键字）</caption>
+                   <tr>
+                   <td>auto</td>
+                   <td>break</td>
+                   <td>case</td>
+                   <td>char</td>
+                   <td>const</td>
+                   <td>continue</td>
+                   </tr>
+                   <tr>
+                   <td>default</td>
+                   <td>do</td>
+                   <td>double</td>
+                   <td>else</td>
+                   <td>enum</td>
+                   <td>extern</td>
+                   </tr>
+                   <tr>
+                   <td>float</td>
+                   <td>for</td>
+                   <td>goto</td>
+                   <td>if</td>
+                   <td>int</td>
+                   <td>long</td>
+                   </tr>
+                   <tr>
+                   <td>register</td>
+                   <td>return</td>
+                   <td>short</td>
+                   <td>signed</td>
+                   <td>sizeof</td>
+                   <td>static</td>
+                   </tr>
+                   <tr>
+                   <td>struct</td>
+                   <td>switch</td>
+                   <td>typedef</td>
+                   <td>union</td>
+                   <td>unsigned</td>
+                   <td>void</td>
+                   </tr>
+                   <tr>
+                   <td>volatile</td>
+                   <td>while</td>
+                   <td>bool</td>
+                   <td>false</td>
+                   <td>inline</td>
+                   <td>true</td>
+                   </tr>
+                   </table>
+                   </ul>
+                 <strong>C严格区分大小写，a和A，TEMP和tEMP是不同的标识符，并不冲突。</strong>
+                </div>               
+              </div>
+               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col"><strong>输入和输出</strong></h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>printf和scanf是C中标准输入输出函数。</h5>
+                  <p><strong>printf函数</strong></p>
+                  <ul>
+                  	<li>一般格式<pre>int a=10,b=3;
+printf("%d,%d",a,b);</pre></li>
+                  <li>
+                  	<table border="1">
+                  	<caption>格式符</caption>
+                    <tr>
+                    <th>%d</th>
+                    <td>十进制整型</td>
+                    </tr>
+                    <tr>
+                    <th>%i</th>
+                    <td>十进制整数</td>
+                    </tr>
+                    <tr>
+                    <th>%o和%x(或%X)</th>
+                    <td>分别为八进制或十六进制整型</td>
+                    </tr>
+                    <tr>
+                    <th>%u</th>
+                    <td>无符号十进制整型</td>
+                    </tr>
+                    <tr>
+                    <th>%c</th>
+                    <td>字符型</td>
+                    </tr>
+                    <tr>
+                    <th>%l</th>
+                    <td>长整型</td>
+                    </tr>
+                    <tr>
+                    <th>%ll</th>
+                    <td>长长整型</td>
+                    </tr>
+                    <tr>
+                    <th>%s</th>
+                    <td>字符串</td>
+                    </tr>
+                    <tr>
+                    <th>%f</th>
+                    <td>浮点型</td>
+                    </tr>
+                    <tr>
+                    <th>%e</th>
+                    <td>指数型</td>
+                    </tr>
+                    <tr>
+                    <th>%g</th>
+                    <td>自动选择f和e形式</td>
+                    </tr>
+                   </table>
+                   <p style="color: coral">如果需要输出“%”，则写为“%%”。</p>
+                  </li>
+                  </ul>
+                  <p><strong>scanf函数</strong></p>
+                  <pre>int a;
+float b;
+scanf("%d %f",&#38;a,&#38;b);</pre>
+                  <p>输入1 2.1，或者输入1回车2.1</p>
+                  <p style="color: coral">即如果两个操作符间用“，”隔开，则输入必须用“，”隔开；如果用空格键隔开，则输入时可用空格或回车隔开。另外要注意，不要将两格式符写为下面形式（字符型除外）：scanf("%d%f",&#38;a,&#38;b);</p>
+                  <p><strong>如果要输入和输出字符串，除scanf和printf外，还可以调用gets和puts.</strong></p>
+                  
+                </div>               
+              </div>
+            </div>  
+    </div>
+<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: deeppink" onClick="a1()">上一节</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="background-color: deeppink" onClick="a2()">下一节</button>
+    </div>
+    
+    </main>
+    
+    </div>
+    
+    </div>
+    
+  </main>
+</div>
+
+</body>
+</html>
