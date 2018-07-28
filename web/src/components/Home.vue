@@ -79,7 +79,6 @@
                 <div class="md-subhead">本网站提供在线练习系统，可以自动进行客观题目阅卷，对人们所学知识进行检验。
                   <br/>
                   <br/>
-                  <br/>
                 </div>
               </md-card-header>
             </md-card>
@@ -92,7 +91,6 @@
               <md-card-header>
                 <div class="md-title">简单高效的学习方式</div>
                 <div class="md-subhead">每个人的时间都是非常宝贵的。因此，在这里为您提供了快捷易懂的学习内容。您可以通过任何一种便利高效的学习模式学习您需要的知识。
-                  <br/>
                   <br/>
                 </div>
               </md-card-header>
