@@ -4,8 +4,8 @@
       <md-app-toolbar class="md-large md-dense md-primary">
         <div class="md-toolbar-row">
           <div class="md-toolbar-section-start">
-            <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
-              <md-icon>menu</md-icon>
+            <md-button disabled class="md-icon-button">
+              <md-icon>home</md-icon>
             </md-button>
             <router-link to="/Home">
               <span class="md-title">EasyLearning在线学习网</span>
@@ -13,51 +13,17 @@
           </div>
         </div>
         <div class="md-toolbar-row">
-          <md-tabs class="md-primary">
-            <md-tab id="tab1" md-label="HTML基础教程" to="/Home"></md-tab>
-            <md-tab id="tab2" md-label="C语言教程" to="/Home"></md-tab>
-            <md-tab id="tab3" md-label="操作系统" to="/Home"></md-tab>
-            <md-tab id="tab4" md-label="数据结构" to="/Home"></md-tab>
-            <md-tab id="tab5" md-label="计算机组成原理" to="/Home"></md-tab>
-            <md-tab id="tab6" md-label="计算机网络" to="/Home"></md-tab>
+          <md-tabs class="md-primary" md-active-tab="tab0">
+            <md-tab id="tab0" md-label="首页" to="/Home"></md-tab>
+            <md-tab id="tab1" md-label="HTML" to="/Html"></md-tab>
+            <md-tab id="tab2" md-label="C语言" to="/Clang"></md-tab>
+            <md-tab id="tab3" md-label="操作系统" to="/Os"></md-tab>
+            <md-tab id="tab4" md-label="数据结构" to="/Ds"></md-tab>
+            <md-tab id="tab5" md-label="计算机组成原理" to="/Cc"></md-tab>
+            <md-tab id="tab6" md-label="计算机网络" to="/Cn"></md-tab>
           </md-tabs>
         </div>
       </md-app-toolbar>
-      <md-app-drawer :md-active.sync="menuVisible">
-        <md-toolbar class="md-transparent" md-elevation="0">小测验</md-toolbar>
-        <md-list>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">HTML测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">C语言测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">操作系统测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">数据结构测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">计算机组成原理测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">计算机网络测验</span>
-            </router-link>
-          </md-list-item>
-        </md-list>
-      </md-app-drawer>
       <md-app-content>
         <div style="text-align: center;margin-top: 20px">
           <span class="md-display-3">领先的大学基础学习课程——全部免费</span>
@@ -118,7 +84,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      menuVisible: false
+
     }
   }
 }
@@ -126,9 +92,6 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.md-drawer {
-  width: 200px;
-  max-width: calc(100vw - 125px);
-}
+
 
 </style>
