@@ -26,21 +26,9 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Cc">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">计算机组成原理</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -62,7 +50,7 @@
           <span class="md-subheading">计算机组成原理讲述了计算机的一般原理, 并注意到与实际应用相结合。本教程内容由浅入深, 每章之后均附有习题, 便于自学。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cc">
             <span class="md-subheading">现在开始学习计算机组成原理!</span>
           </router-link>
         </div>
@@ -74,7 +62,7 @@
           <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cc">
             <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
@@ -86,7 +74,7 @@
           <span class="md-subheading">在这里, 测试你的计算机组成原理知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cc">
             <span class="md-subheading">开始计算机组成原理测验!</span>
           </router-link>
         </div>

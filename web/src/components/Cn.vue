@@ -26,21 +26,9 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Cn">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">计算机网络教程</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -62,7 +50,7 @@
           <span class="md-subheading">在网络操作系统, 网络管理软件及网络通信协议的管理和协调下, 实现资源共享和信息传递的计算机系统。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cn">
             <span class="md-subheading">现在开始学习计算机网络!</span>
           </router-link>
         </div>
@@ -74,7 +62,7 @@
           <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cn">
             <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
@@ -86,7 +74,7 @@
           <span class="md-subheading">在这里, 测试你的计算机网络知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Cn">
             <span class="md-subheading">开始计算机网络测验!</span>
           </router-link>
         </div>
