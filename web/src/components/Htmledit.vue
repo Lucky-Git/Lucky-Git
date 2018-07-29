@@ -52,7 +52,7 @@
           <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmlintro">
+          <router-link to="/Htmlbasic">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
@@ -126,7 +126,7 @@
           <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmlintro">
+          <router-link to="/Htmlbasic">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>

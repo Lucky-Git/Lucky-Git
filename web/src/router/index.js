@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Html from '@/components/Html'
 import Htmlintro from '@/components/Htmlintro'
 import Htmledit from '@/components/Htmledit'
+import Htmlbasic from '@/components/Htmlbasic'
 import Clang from '@/components/Clang'
 import Os from '@/components/Os'
 import Ds from '@/components/Ds'
@@ -38,6 +39,11 @@ export default new Router({
       path: '/htmledit',
       name: 'HTML编辑器',
       component: Htmledit
+    },
+    {
+      path: '/htmlbasic',
+      name: 'HTML基础',
+      component: Htmlbasic
     },
     {
       path: '/clang',
