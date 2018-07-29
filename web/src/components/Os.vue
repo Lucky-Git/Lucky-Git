@@ -64,7 +64,7 @@
           <span class="md-display-1">操作系统教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
@@ -78,7 +78,7 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">现在开始学习HTML!</span>
+            <span class="md-subheading">现在开始学习操作系统!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -98,16 +98,16 @@
           <span class="md-title">操作系统测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的操作系统技能吧!</span>
+          <span class="md-subheading">在这里, 测试你的操作系统知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">开始OS测验!</span>
+            <span class="md-subheading">开始操作系统测验!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
       </md-app-content>
     </md-app>

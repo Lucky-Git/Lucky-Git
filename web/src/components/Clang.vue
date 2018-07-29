@@ -64,7 +64,7 @@
           <span class="md-display-1">C语言教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
@@ -98,7 +98,7 @@
           <span class="md-title">C语言测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的C语言技能吧!</span>
+          <span class="md-subheading">在这里, 测试你的C语言知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
@@ -107,7 +107,7 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
       </md-app-content>
     </md-app>

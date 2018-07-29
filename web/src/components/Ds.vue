@@ -61,14 +61,14 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">数据结构</span>
+          <span class="md-display-1">数据结构教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">数据结构</span>
+          <span class="md-title">数据结构教程</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <span class="md-subheading">数据结构是计算机存储、组织数据的方式。数据结构是指相互之间存在一种或多种特定关系的数据元素的集合。</span>
@@ -78,7 +78,7 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">现在开始学习HTML!</span>
+            <span class="md-subheading">现在开始学习数据结构!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -98,7 +98,7 @@
           <span class="md-title">数据结构测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的数据结构技能吧!</span>
+          <span class="md-subheading">在这里, 测试你的数据结构知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
@@ -107,7 +107,7 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
       </md-app-content>
     </md-app>

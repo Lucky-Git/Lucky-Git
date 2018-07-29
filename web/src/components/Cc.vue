@@ -61,14 +61,14 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">计算机组成原理</span>
+          <span class="md-display-1">计算机组成原理教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">计算机组成原理</span>
+          <span class="md-title">计算机组成原理教程</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <span class="md-subheading">计算机组成原理系统地介绍了计算机的基本组成原理和内部工作机制。《计算机组成原理》共分7章，主要内容分成两个部分：第1、2章介绍了计算机的基础知识；第3～7章介绍了计算机的各子系统（包括运算器、存储器、控制器、外部设备和输入输出子系统等）的基本组成原理、设计方法、相互关系以及各子系统互相连接构成整机系统的技术。</span>
@@ -95,19 +95,19 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">组成原理测验</span>
+          <span class="md-title">计算机组成原理测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里，测试你的组成原理技能吧！</span>
+          <span class="md-subheading">在这里，测试你的计算机组成原理知识吧！</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">开始组成原理测验！</span>
+            <span class="md-subheading">开始计算机组成原理测验！</span>
           </router-link>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
       </md-app-content>
     </md-app>

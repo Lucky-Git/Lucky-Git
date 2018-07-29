@@ -64,7 +64,7 @@
           <span class="md-display-1">计算机网络教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
@@ -78,7 +78,7 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">现在开始学习HTML！</span>
+            <span class="md-subheading">现在开始学习计算机网络！</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -98,7 +98,7 @@
           <span class="md-title">计算机网络测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里，测试你的计算机网络技能吧！</span>
+          <span class="md-subheading">在这里，测试你的计算机网络知识吧！</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
@@ -107,7 +107,7 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-primary">下一节</md-button>
+          <md-button class="md-raised md-accent">下一节</md-button>
         </div>
       </md-app-content>
     </md-app>

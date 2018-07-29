@@ -46,54 +46,103 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">HTML教程</span>
+          <span class="md-display-1">HTML简介</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Html">
+            <md-button class="md-raised md-accent">上一节</md-button>
+          </router-link>
           <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">HTML教程</span>
+        <div class="md-layout md-gutter" style="margin-top: 20px;;margin-bottom: 20px">
+          <div class="md-layout-item">
+            <md-card>
+              <md-card-header>
+                <div class="md-title">实例引入</div>
+              </md-card-header>
+              <md-card-content>
+                &lt;html&gt;
+                <br>
+                <br>&lt;body&gt;
+                <br>
+                <br>&lt;h1&gt;My First Heading&lt;/h1&gt;
+                <br>&lt;p>My first paragraph.&lt;/p&gt;
+                <br>
+                <br>&lt;/body&gt;
+                <br>
+                <br>&lt;/html>
+              </md-card-content>
+            </md-card>
+          </div>
+          <div class="md-layout-item">
+            <md-card>
+              <md-card-header>
+                <div class="md-title">实例解释</div>
+              </md-card-header>
+              <md-card-content>
+                <li>&lt;html&gt;与&lt;/html&gt;之间的文本描述网页</li>
+                <li>&lt;body&gt;与&lt;/body&gt;之间的文本是可见的页面内容</li>
+                <li>&lt;h1&gt;与&lt;/h1&gt;之间的文本被显示为标题</li>
+                <li>&lt;p&gt;与&lt;/p&gt;之间的文本被显示为段落</li>
+              </md-card-content>
+            </md-card>
+          </div>
         </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在本教程中, 你将学习如何使用HTML来创建站点。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">HTML是网站建设的基础, 很简单的, 让我们一起来轻松地学吧!</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Htmlintro">
-            <span class="md-subheading">现在开始学习HTML!</span>
-          </router-link>
+        <div style="margin-top: 20px;margin-bottom: 20px">
+          <md-button class="md-raised md-accent" onclick="window.open('http://www.w3school.com.cn/tiy/t.asp?f=html_basic')">亲自试一试</md-button>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">HTML实例</span>
+          <span class="md-title">什么是HTML?</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
+          <span class="md-subheading">HTML是用来描述网页的一种语言。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
-            <span class="md-subheading">亲自试一试吧!</span>
-          </router-link>
+          <ul>
+            <li>HTML指的是超文本标记语言(Hyper Text Markup Language)</li>
+            <li>HTML不是一种编程语言, 而是一种标记语言(markup language)</li>
+            <li>标记语言是一套标记标签(markup tag)</li>
+            <li>HTML使用标记标签来描述网页</li>
+          </ul>
         </div>
         <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">HTML测验</span>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">HTML标签</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的HTML知识吧!</span>
+          <span class="md-subheading">HTML标记标签通常被称为HTML标签(HTML tag)。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
-            <span class="md-subheading">开始HTML测验!</span>
-          </router-link>
+          <ul>
+            <li>HTML标签是由尖括号包围的关键词</li>
+            <li>HTML标签通常是成对出现的</li>
+            <li>标签对中的第一个标签是开始标签, 第二个标签是结束标签</li>
+            <li>开始和结束标签也被称为开放标签和闭合标签</li>
+          </ul>
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">HTML文档=网页</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <ul>
+            <li>HTML文档描述网页</li>
+            <li>HTML文档包含HTML标签和纯文本</li>
+            <li>HTML文档也被称为网页</li>
+          </ul>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+          <span class="md-subheading">Web浏览器的作用是读取HTML文档, 并以网页的形式显示出它们。浏览器不会显示HTML标签, 而是使用标签来解释页面的内容</span>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Html">
+            <md-button class="md-raised md-accent">上一节</md-button>
+          </router-link>
           <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
