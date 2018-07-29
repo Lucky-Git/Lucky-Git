@@ -46,36 +46,11 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">操作系统教程</span>
+          <span class="md-display-1">操作系统测验</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-accent">下一节</md-button>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">操作系统教程</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在本教程中, 你将学习并了解到关于计算机硬件和软件的连接点——操作系统, 相信通过认真的学习, 你会对操作系统如何控制和管理计算机有一个更清楚地认识!</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在信息化时代, 软件被称为计算机系统的灵魂。而作为软件和新的操作系统, 已经与现代计算机系统密不可分, 融为一体。因此, 要求本质上学生能在宏观上把握操作系统各个部分的功能。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Os">
-            <span class="md-subheading">现在开始学习操作系统!</span>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">操作系统实例</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Os">
-            <span class="md-subheading">亲自试一试吧!</span>
+          <router-link to="/Ostestintro">
+            <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -83,16 +58,30 @@
           <span class="md-title">操作系统测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的操作系统知识吧!</span>
+          <span class="md-subheading">您可以通过本系统的在线测验来测试您的操作系统技能。</span>
         </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">关于本测试</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">本测验包含 20 道题。 本测验是非官方的测试，它仅仅提供了一个了解您对操作系统的掌握程度的工具。</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">测验会被记分</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后，系统会为您的测验打分，并提供每道题目的正确答案。其中，绿色为正确答案，而红色为用户自己的答案。</span>
+        </div>
+        <div style="margin-top: 20px;margin-bottom: 20px">
           <router-link to="/Ostestintro">
-            <span class="md-subheading">开始操作系统测验!</span>
+            <md-button class="md-raised">现在开始测验吧！</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
-        <div style="margin-top: 20px">
-          <md-button class="md-raised md-accent">下一节</md-button>
+        <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Ostestintro">
+            <md-button class="md-raised md-accent">上一节</md-button>
+          </router-link>
         </div>
       </md-app-content>
     </md-app>

@@ -12,6 +12,7 @@ import Clang from '@/components/Clang'
 import Clangintro from '@/components/Clangintro'
 import Clangtestintro from '@/components/Clangtestintro'
 import Os from '@/components/Os'
+import Ostestintro from '@/components/Ostestintro'
 import Ds from '@/components/Ds'
 import Cc from '@/components/Cc'
 import Cn from '@/components/Cn'
@@ -78,6 +79,11 @@ export default new Router({
       path: '/os',
       name: '操作系统',
       component: Os
+    },
+    {
+      path: '/ostestintro',
+      name: '操作系统测验',
+      component: Ostestintro
     },
     {
       path: '/ds',
