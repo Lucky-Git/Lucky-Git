@@ -6,6 +6,7 @@ import Html from '@/components/Html'
 import Htmlintro from '@/components/Htmlintro'
 import Htmledit from '@/components/Htmledit'
 import Htmlbasic from '@/components/Htmlbasic'
+import Htmlobj from '@/components/Htmlobj'
 import Clang from '@/components/Clang'
 import Os from '@/components/Os'
 import Ds from '@/components/Ds'
@@ -44,6 +45,11 @@ export default new Router({
       path: '/htmlbasic',
       name: 'HTML基础',
       component: Htmlbasic
+    },
+    {
+      path: '/htmlobj',
+      name: 'HTML实例',
+      component: Htmlobj
     },
     {
       path: '/clang',

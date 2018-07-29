@@ -76,7 +76,7 @@
           <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Htmlobj">
             <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
