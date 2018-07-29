@@ -46,13 +46,13 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">基本的HTML标签-四个实例</span>
+          <span class="md-display-1">HTML实例</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
           <router-link to="/Htmlbasic">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmlbasic">
+          <router-link to="/Htmltestintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
@@ -271,7 +271,7 @@
           <router-link to="/Htmlbasic">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmlbasic">
+          <router-link to="/Htmltestintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>

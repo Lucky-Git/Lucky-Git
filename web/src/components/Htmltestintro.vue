@@ -46,38 +46,11 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">HTML教程</span>
+          <span class="md-display-1">HTML测验</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Htmlintro">
-            <md-button class="md-raised md-accent">下一节</md-button>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">HTML教程</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在本教程中, 你将学习如何使用HTML来创建站点。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">HTML是网站建设的基础, 很简单的, 让我们一起来轻松地学吧!</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Htmlintro">
-            <span class="md-subheading">现在开始学习HTML!</span>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">HTML实例</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Htmlobj">
-            <span class="md-subheading">亲自试一试吧!</span>
+            <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -85,17 +58,29 @@
           <span class="md-title">HTML测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的HTML知识吧!</span>
+          <span class="md-subheading">您可以通过本系统的在线测验来测试您的 HTML 技能。</span>
         </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Htmltestintro">
-            <span class="md-subheading">开始HTML测验!</span>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">关于本测试</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">本测验包含 20 道题。 本测验是非官方的测试，它仅仅提供了一个了解您对 HTML 的掌握程度的工具。</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">测验会被记分</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后，系统会为您的测验打分，并提供每道题目的正确答案。其中，绿色为正确答案，而红色为用户自己的答案。</span>
+        </div>
+        <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Htmlobj">
+            <md-button class="md-raised">现在开始测验吧！</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Htmlintro">
-            <md-button class="md-raised md-accent">下一节</md-button>
+          <router-link to="/Htmlobj">
+            <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
         </div>
       </md-app-content>
