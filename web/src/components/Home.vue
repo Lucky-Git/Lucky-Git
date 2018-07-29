@@ -26,13 +26,13 @@
       </md-app-toolbar>
       <md-app-content>
         <div style="text-align: center;margin-top: 20px">
-          <span class="md-display-3">领先的大学基础学习课程——全部免费</span>
+          <span class="md-display-1">领先的大学基础学习课程——全部免费</span>
         </div>
         <div style="text-align: center;margin-top: 20px">
-          <span class="md-headline">在EasyLearing, 你可以找到你所需要的大学生应该掌握的计算机基础课程。从最基本的C语言, 数据结构, 再到专业的Web课程HTML。</span>
+          <span class="md-title">在EasyLearing, 你可以找到你所需要的大学生应该掌握的计算机基础课程。从最基本的C语言, 数据结构, 再到专业的Web课程HTML。</span>
         </div>
         <div style="text-align: center;margin-top: 20px;margin-bottom: 50px">
-          <span class="md-headline">领先的大学基础学习课程——全部免费</span>
+          <span class="md-subheading">领先的大学基础学习课程——全部免费</span>
         </div>
         <div class="md-layout md-gutter">
           <div class="md-layout-item">
