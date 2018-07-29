@@ -49,7 +49,9 @@
           <span class="md-display-1">C语言教程</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-accent">下一节</md-button>
+          <router-link to="/Clangintro">
+            <md-button class="md-raised md-accent">下一节</md-button>
+          </router-link>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px">
@@ -62,7 +64,7 @@
           <span class="md-subheading">C语言是计算机高级语言的一种, 是高级语言的基础, 让我们一起来轻松地学吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Clangintro">
             <span class="md-subheading">现在开始学习C语言!</span>
           </router-link>
         </div>
@@ -74,7 +76,7 @@
           <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Clang">
             <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
@@ -86,13 +88,15 @@
           <span class="md-subheading">在这里, 测试你的C语言知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Clang">
             <span class="md-subheading">开始C语言测验!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px">
-          <md-button class="md-raised md-accent">下一节</md-button>
+          <router-link to="/Clangintro">
+            <md-button class="md-raised md-accent">下一节</md-button>
+          </router-link>
         </div>
       </md-app-content>
     </md-app>

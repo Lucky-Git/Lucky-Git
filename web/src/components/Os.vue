@@ -62,7 +62,7 @@
           <span class="md-subheading">在信息化时代, 软件被称为计算机系统的灵魂。而作为软件和新的操作系统, 已经与现代计算机系统密不可分, 融为一体。因此, 要求本质上学生能在宏观上把握操作系统各个部分的功能。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Os">
             <span class="md-subheading">现在开始学习操作系统!</span>
           </router-link>
         </div>
@@ -74,7 +74,7 @@
           <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Home">
+          <router-link to="/Os">
             <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>

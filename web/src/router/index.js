@@ -9,6 +9,7 @@ import Htmlbasic from '@/components/Htmlbasic'
 import Htmlobj from '@/components/Htmlobj'
 import Htmltestintro from '@/components/Htmltestintro'
 import Clang from '@/components/Clang'
+import Clangintro from '@/components/Clangintro'
 import Os from '@/components/Os'
 import Ds from '@/components/Ds'
 import Cc from '@/components/Cc'
@@ -61,6 +62,11 @@ export default new Router({
       path: '/clang',
       name: 'C语言',
       component: Clang
+    },
+    {
+      path: '/clangintro',
+      name: 'C语言简介',
+      component: Clangintro
     },
     {
       path: '/os',
