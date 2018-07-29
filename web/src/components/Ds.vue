@@ -24,38 +24,23 @@
           </md-tabs>
         </div>
       </md-app-toolbar>
-      <md-app-drawer :md-active.sync="menuVisible">
-        <md-toolbar class="md-transparent" md-elevation="0">小测验</md-toolbar>
+      <md-app-drawer md-permanent="card">
         <md-list>
           <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">HTML测验</span>
-            </router-link>
+            <md-icon>move_to_inbox</md-icon>
+            <span class="md-list-item-text">Inbox</span>
           </md-list-item>
           <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">C语言测验</span>
-            </router-link>
+            <md-icon>send</md-icon>
+            <span class="md-list-item-text">Sent Mail</span>
           </md-list-item>
           <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">操作系统测验</span>
-            </router-link>
+            <md-icon>delete</md-icon>
+            <span class="md-list-item-text">Trash</span>
           </md-list-item>
           <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">数据结构测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">计算机组成原理测验</span>
-            </router-link>
-          </md-list-item>
-          <md-list-item>
-            <router-link to="/Home">
-              <span class="md-list-item-text">计算机网络测验</span>
-            </router-link>
+            <md-icon>error</md-icon>
+            <span class="md-list-item-text">Spam</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
