@@ -71,14 +71,14 @@
           <span class="md-title">计算机网络教程</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">计算机网络，是指将地理位置不同的具有独立功能的多台计算机及其外部设备，通过通信线路连接起来。</span>
+          <span class="md-subheading">计算机网络, 是指将地理位置不同的具有独立功能的多台计算机及其外部设备, 通过通信线路连接起来。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在网络操作系统，网络管理软件及网络通信协议的管理和协调下，实现资源共享和信息传递的计算机系统。</span>
+          <span class="md-subheading">在网络操作系统, 网络管理软件及网络通信协议的管理和协调下, 实现资源共享和信息传递的计算机系统。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">现在开始学习计算机网络！</span>
+            <span class="md-subheading">现在开始学习计算机网络!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -90,7 +90,7 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">亲自试一试吧！</span>
+            <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -98,11 +98,11 @@
           <span class="md-title">计算机网络测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里，测试你的计算机网络知识吧！</span>
+          <span class="md-subheading">在这里, 测试你的计算机网络知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">开始计算机网络测验！</span>
+            <span class="md-subheading">开始计算机网络测验!</span>
           </router-link>
         </div>
         <md-divider></md-divider>

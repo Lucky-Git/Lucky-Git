@@ -78,10 +78,10 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">步骤一：启动记事本</span>
+          <span class="md-title">步骤一: 启动记事本</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">如何启动记事本：</span>
+          <span class="md-subheading">如何启动记事本: </span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <ol>
@@ -93,30 +93,30 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">步骤二：用记事本来编辑 HTML</span>
+          <span class="md-title">步骤二: 用记事本来编辑 HTML</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在记事本中键入 HTML 代码：</span>
+          <span class="md-subheading">在记事本中键入 HTML 代码: </span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <img src="../assets/HTML编辑器1.gif">
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">步骤三：保存 HTML</span>
+          <span class="md-title">步骤三: 保存 HTML</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <span class="md-subheading">在记事本的文件菜单选择“另存为”。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <span class="md-subheading">当您保存 HTML 文件时，既可以使用 .htm 也可以使用 .html 扩展名。两者没有区别，完全根据您的喜好。 在一个容易记忆的文件夹中保存这个文件，比如 w3school。</span>
+          <span class="md-subheading">当您保存 HTML 文件时, 既可以使用 .htm 也可以使用 .html 扩展名。两者没有区别, 完全根据您的喜好。 在一个容易记忆的文件夹中保存这个文件, 比如 w3school。</span>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">步骤四：在浏览器中运行这个 HTML 文件</span>
+          <span class="md-title">步骤四: 在浏览器中运行这个 HTML 文件</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">启动您的浏览器，然后选择“文件”菜单的“打开文件”命令，或者直接在文件夹中双击您的 HTML 文件。 结果应该类似这样：</span>
+          <span class="md-subheading">启动您的浏览器, 然后选择“文件”菜单的“打开文件”命令, 或者直接在文件夹中双击您的 HTML 文件。 结果应该类似这样: </span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <img src="../assets/HTML编辑器2.gif">

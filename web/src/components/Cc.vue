@@ -71,14 +71,14 @@
           <span class="md-title">计算机组成原理教程</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">计算机组成原理系统地介绍了计算机的基本组成原理和内部工作机制。《计算机组成原理》共分7章，主要内容分成两个部分：第1、2章介绍了计算机的基础知识；第3～7章介绍了计算机的各子系统（包括运算器、存储器、控制器、外部设备和输入输出子系统等）的基本组成原理、设计方法、相互关系以及各子系统互相连接构成整机系统的技术。</span>
+          <span class="md-subheading">计算机组成原理系统地介绍了计算机的基本组成原理和内部工作机制。《计算机组成原理》共分7章, 主要内容分成两个部分: 第1、2章介绍了计算机的基础知识；第3～7章介绍了计算机的各子系统（包括运算器、存储器、控制器、外部设备和输入输出子系统等）的基本组成原理、设计方法、相互关系以及各子系统互相连接构成整机系统的技术。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">计算机组成原理讲述了计算机的一般原理，并注意到与实际应用相结合。本教程内容由浅入深，每章之后均附有习题，便于自学。</span>
+          <span class="md-subheading">计算机组成原理讲述了计算机的一般原理, 并注意到与实际应用相结合。本教程内容由浅入深, 每章之后均附有习题, 便于自学。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">现在开始学习计算机组成原理！</span>
+            <span class="md-subheading">现在开始学习计算机组成原理!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -90,7 +90,7 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">亲自试一试吧！</span>
+            <span class="md-subheading">亲自试一试吧!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
@@ -98,11 +98,11 @@
           <span class="md-title">计算机组成原理测验</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里，测试你的计算机组成原理知识吧！</span>
+          <span class="md-subheading">在这里, 测试你的计算机组成原理知识吧!</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Home">
-            <span class="md-subheading">开始计算机组成原理测验！</span>
+            <span class="md-subheading">开始计算机组成原理测验!</span>
           </router-link>
         </div>
         <md-divider></md-divider>
