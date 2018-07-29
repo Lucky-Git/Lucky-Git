@@ -10,6 +10,7 @@ import Htmlobj from '@/components/Htmlobj'
 import Htmltestintro from '@/components/Htmltestintro'
 import Clang from '@/components/Clang'
 import Clangintro from '@/components/Clangintro'
+import Clangtestintro from '@/components/Clangtestintro'
 import Os from '@/components/Os'
 import Ds from '@/components/Ds'
 import Cc from '@/components/Cc'
@@ -67,6 +68,11 @@ export default new Router({
       path: '/clangintro',
       name: 'C语言简介',
       component: Clangintro
+    },
+    {
+      path: '/clangtestintro',
+      name: 'C语言测验',
+      component: Clangtestintro
     },
     {
       path: '/os',

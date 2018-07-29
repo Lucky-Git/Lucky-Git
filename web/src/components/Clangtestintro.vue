@@ -46,56 +46,41 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">C语言教程</span>
+          <span class="md-display-1">C语言测验</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Clangintro">
-            <md-button class="md-raised md-accent">下一节</md-button>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">C语言教程</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在本教程中, 你将学习如何使用C语言来编写程序。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">C语言是计算机高级语言的一种, 是高级语言的基础, 让我们一起来轻松地学吧!</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Clangintro">
-            <span class="md-subheading">现在开始学习C语言!</span>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">C语言实例</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">通过这些实例来更好的理解和学习知识</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <router-link to="/Clang">
-            <span class="md-subheading">亲自试一试吧!</span>
-          </router-link>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-title">C语言测验</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">在这里, 测试你的C语言知识吧!</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <router-link to="/Clangtestintro">
-            <span class="md-subheading">开始C语言测验!</span>
+            <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
-        <div style="margin-top: 20px">
-          <router-link to="/Clangintro">
-            <md-button class="md-raised md-accent">下一节</md-button>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-title">HTML测验</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">您可以通过本系统的在线测验来测试您的C语言技能。</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">关于本测试</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">本测验包含 20 道题。 本测验是非官方的测试，它仅仅提供了一个了解您对C语言的掌握程度的工具。</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">测验会被记分</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后，系统会为您的测验打分，并提供每道题目的正确答案。其中，绿色为正确答案，而红色为用户自己的答案。</span>
+        </div>
+        <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Clangtestintro">
+            <md-button class="md-raised">现在开始测验吧！</md-button>
+          </router-link>
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-bottom: 20px">
+          <router-link to="/Clangtestintro">
+            <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
         </div>
       </md-app-content>
