@@ -107,9 +107,7 @@
 export default {
   name: 'Home',
   data() {
-    return {
-      menuVisible: false
-    }
+    return {}
   }
 }
 

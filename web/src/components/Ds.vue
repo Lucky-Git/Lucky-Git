@@ -4,8 +4,8 @@
       <md-app-toolbar class="md-large md-dense md-primary">
         <div class="md-toolbar-row">
           <div class="md-toolbar-section-start">
-            <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
-              <md-icon>menu</md-icon>
+            <md-button disabled class="md-icon-button">
+              <md-icon>home</md-icon>
             </md-button>
             <router-link to="/Home">
               <span class="md-title">EasyLearning在线学习网</span>
@@ -118,9 +118,7 @@
 export default {
   name: 'Home',
   data() {
-    return {
-      menuVisible: false
-    }
+    return {}
   }
 }
 
