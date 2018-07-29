@@ -46,104 +46,87 @@
       </md-app-drawer>
       <md-app-content>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-display-1">HTML简介</span>
+          <span class="md-display-1">HTML编辑器</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Html">
+          <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmledit">
+          <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
         <md-divider></md-divider>
-        <div class="md-layout md-gutter" style="margin-top: 20px;;margin-bottom: 20px">
-          <div class="md-layout-item">
-            <md-card>
-              <md-card-header>
-                <div class="md-title">实例引入</div>
-              </md-card-header>
-              <md-card-content>
-                &lt;html&gt;
-                <br>
-                <br>&lt;body&gt;
-                <br>
-                <br>&lt;h1&gt;My First Heading&lt;/h1&gt;
-                <br>&lt;p>My first paragraph.&lt;/p&gt;
-                <br>
-                <br>&lt;/body&gt;
-                <br>
-                <br>&lt;/html>
-              </md-card-content>
-            </md-card>
-          </div>
-          <div class="md-layout-item">
-            <md-card>
-              <md-card-header>
-                <div class="md-title">实例解释</div>
-              </md-card-header>
-              <md-card-content>
-                <li>&lt;html&gt;与&lt;/html&gt;之间的文本描述网页</li>
-                <li>&lt;body&gt;与&lt;/body&gt;之间的文本是可见的页面内容</li>
-                <li>&lt;h1&gt;与&lt;/h1&gt;之间的文本被显示为标题</li>
-                <li>&lt;p&gt;与&lt;/p&gt;之间的文本被显示为段落</li>
-              </md-card-content>
-            </md-card>
-          </div>
-        </div>
-        <div style="margin-top: 20px;margin-bottom: 20px">
-          <md-button class="md-raised md-accent" onclick="window.open('http://www.w3school.com.cn/tiy/t.asp?f=html_basic')">亲自试一试</md-button>
-        </div>
-        <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">什么是HTML?</span>
+          <span class="md-title">使用 Notepad 或 TextEdit 来编写 HTML</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">HTML是用来描述网页的一种语言。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <ul>
-            <li>HTML指的是超文本标记语言(Hyper Text Markup Language)</li>
-            <li>HTML不是一种编程语言, 而是一种标记语言(markup language)</li>
-            <li>标记语言是一套标记标签(markup tag)</li>
-            <li>HTML使用标记标签来描述网页</li>
-          </ul>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">HTML标签</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-subheading">HTML标记标签通常被称为HTML标签(HTML tag)。</span>
-        </div>
-        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <ul>
-            <li>HTML标签是由尖括号包围的关键词</li>
-            <li>HTML标签通常是成对出现的</li>
-            <li>标签对中的第一个标签是开始标签, 第二个标签是结束标签</li>
-            <li>开始和结束标签也被称为开放标签和闭合标签</li>
-          </ul>
-        </div>
-        <md-divider></md-divider>
-        <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">HTML文档=网页</span>
+          <span class="md-subheading">可以使用专业的 HTML 编辑器来编辑 HTML: </span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <ul>
-            <li>HTML文档描述网页</li>
-            <li>HTML文档包含HTML标签和纯文本</li>
-            <li>HTML文档也被称为网页</li>
+            <li>Adobe Dreamweaver</li>
+            <li>AMicrosoft Expression Web</li>
+            <li>CoffeeCup HTML Editor</li>
           </ul>
         </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">不过, 我们同时推荐使用文本编辑器来学习 HTML, 比如 Notepad (PC) 或 TextEdit (Mac)。我们相信, 使用一款简单的文本编辑器是学习 HTML 的好方法。</span>
+        </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
-          <span class="md-subheading">Web浏览器的作用是读取HTML文档, 并以网页的形式显示出它们。浏览器不会显示HTML标签, 而是使用标签来解释页面的内容</span>
+          <span class="md-subheading">通过记事本, 依照以下四步来创建您的第一张网页。</span>
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">步骤一：启动记事本</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">如何启动记事本：</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+          <ol>
+            <li>开始</li>
+            <li>所有程序</li>
+            <li>附件</li>
+            <li>记事本</li>
+          </ol>
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">步骤二：用记事本来编辑 HTML</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">在记事本中键入 HTML 代码：</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+          <img src="../assets/HTML编辑器1.gif">
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">步骤三：保存 HTML</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">在记事本的文件菜单选择“另存为”。</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+          <span class="md-subheading">当您保存 HTML 文件时，既可以使用 .htm 也可以使用 .html 扩展名。两者没有区别，完全根据您的喜好。 在一个容易记忆的文件夹中保存这个文件，比如 w3school。</span>
+        </div>
+        <md-divider></md-divider>
+        <div style="margin-top: 20px;margin-left: 15px;">
+          <span class="md-title">步骤四：在浏览器中运行这个 HTML 文件</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px">
+          <span class="md-subheading">启动您的浏览器，然后选择“文件”菜单的“打开文件”命令，或者直接在文件夹中双击您的 HTML 文件。 结果应该类似这样：</span>
+        </div>
+        <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
+          <img src="../assets/HTML编辑器2.gif">
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Html">
+          <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Htmledit">
+          <router-link to="/Htmlintro">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
