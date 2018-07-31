@@ -52,7 +52,7 @@
           <router-link to="/Clang">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Clangintro">
+          <router-link to="/Clangbasic">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
@@ -122,7 +122,7 @@
           <router-link to="/Clang">
             <md-button class="md-raised md-accent">上一节</md-button>
           </router-link>
-          <router-link to="/Clangintro">
+          <router-link to="/Clangbasic">
             <md-button class="md-raised md-accent">下一节</md-button>
           </router-link>
         </div>
