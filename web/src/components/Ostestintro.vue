@@ -90,7 +90,7 @@
 <!-- script -->
 <script>
 export default {
-  name: 'Home',
+  name: 'Ostestintro',
   data() {
     return {}
   }
@@ -100,7 +100,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .md-drawer {
-  width: 200px;
+  width: 210px;
   max-width: calc(100vw - 125px);
 }
 

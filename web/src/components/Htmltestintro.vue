@@ -73,7 +73,7 @@
           <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后，系统会为您的测验打分，并提供每道题目的正确答案。其中，绿色为正确答案，而红色为用户自己的答案。</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
-          <router-link to="/Htmlobj">
+          <router-link to="/Htmltest">
             <md-button class="md-raised">现在开始测验吧！</md-button>
           </router-link>
         </div>
@@ -90,7 +90,7 @@
 <!-- script -->
 <script>
 export default {
-  name: 'Home',
+  name: 'Htmltestintro',
   data() {
     return {}
   }
@@ -100,7 +100,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .md-drawer {
-  width: 200px;
+  width: 210px;
   max-width: calc(100vw - 125px);
 }
 
