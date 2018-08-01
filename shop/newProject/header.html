@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<div id="app">
+    <div class="header-top">
+        <div class="container">
+            <div class="col-md-6 logo">
+                <a href="header.html">
+                    <img src="images/logo2.png" alt="">
+                    <h1>FASHION <span>CLUB</span></h1>
+                </a>   
+            </div>
+            <div class="col-md-6 phone">
+                <ul class="list-inline">
+                    <li>
+                        <span class="glyphicon glyphicon-earphone"></span>
+                    </li>
+                    <li>
+                        +18045403380
+                    </li>
+                </ul>
+            </div>
+			<div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="navbar-header">
+							<a href="#menu" class="navbar-toggle"
+							   data-toggle="collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+						</div>
+						<div id="menu" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="header.html"><span>Home</span></a></li>
+								<li class="dropdown ">
+									<a href="" data-toggle="dropdown">Clothing
+										<span class="glyphicon glyphicon-chevron-down"></span>
+									</a>
+									<ul class="dropdown-menu multi">
+										<div class="row">
+											<div class="col-sm-4">
+												<ul>
+													<li>
+														<a href="">
+															<i class="glyphicon glyphicon-chevron-right"></i>
+															Women's Clothing
+														</a>
+													</li>
+													<li>
+														<a href="">
+															<i class="glyphicon glyphicon-chevron-right"></i>
+															Men's Clothing
+														</a>
+													</li>
+													<li>
+														<a href="">
+															<i class="glyphicon glyphicon-chevron-right"></i>
+															Kid's Wear
+														</a>
+													</li>
+													<li>
+														<a href="">
+															<i class="glyphicon glyphicon-chevron-right"></i>
+															Party Wear
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-sm-4">
+												<ul class="multi-column-dropdown">
+													<li><a href="casuals.html"><i class="glyphicon glyphicon-chevron-right"></i>Casuals</a></li>
+													<li><a href="night.html"><i class="glyphicon glyphicon-chevron-right"></i>Night Wear</a></li>
+													<li><a href="formals.html"><i class="glyphicon glyphicon-chevron-right"></i>Formals</a></li>
+													<li><a href="inner.html"><i class="glyphicon glyphicon-chevron-right"></i>Inner Wear</a></li>
+
+												</ul>
+											</div>
+											<div class="col-sm-4">
+												<a href="women.html"><img src="images/menu1.jpg" class="img-responsive" alt=""></a>
+											</div>
+										</div>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="" data-toggle="dropdown">Personal Care
+										<span class="glyphicon glyphicon-chevron-down"></span>
+									</a>
+									<ul class="dropdown-menu multi">
+										<div class="row">
+											<div class="col-sm-4">
+												<ul class="multi-column-dropdown">
+													<li><a href="jewellery.html"><i class="glyphicon glyphicon-chevron-right"></i>Jewellery </a></li>
+													<li><a href="watches.html"><i class="glyphicon glyphicon-chevron-right"></i></i>Watches</a></li>
+													<li><a href="cosmetics.html"><i class="glyphicon glyphicon-chevron-right"></i>Cosmetics</a></li>
+													<li><a href="deos.html"><i class="glyphicon glyphicon-chevron-right"></i>Deo & Perfumes</a></li>
+
+												</ul>
+											</div>
+											<div class="col-sm-4">
+												<ul class="multi-column-dropdown">
+													<li><a href="haircare.html"><i class="glyphicon glyphicon-chevron-right"></i>Hair Care </a></li>
+													<li><a href="shoes.html"><i class="glyphicon glyphicon-chevron-right"></i>Shoes</a></li>
+													<li><a href="handbags.html"><i class="glyphicon glyphicon-chevron-right"></i>Handbags</a></li>
+													<li><a href="skincare.html"><i class="glyphicon glyphicon-chevron-right"></i>Skin care</a></li>
+
+												</ul>
+											</div>
+											<div class="col-sm-4">
+												<a href="jewellery.html"><img src="images/menu2.jpg" class="img-responsive" alt=""></a>
+											</div>
+										</div>
+
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 search">
+						<input type="text" placeholder="Search for a Product...">
+						<button class="glyphicon glyphicon-search"></button>
+					</div>
+					<div class="col-md-1 col-xs-6">
+						<div class="cart">
+							<form action="" method="post" >
+								<input type="hidden">
+								<button class="glyphicon glyphicon-shopping-cart">
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+    </div>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {},
+        methods: {},
+        watch: {}
+    })
+</script>
+</body>
+</html>
