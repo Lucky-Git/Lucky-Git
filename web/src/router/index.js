@@ -13,8 +13,10 @@ import Clang from '@/components/Clang'
 import Clangintro from '@/components/Clangintro'
 import Clangbasic from '@/components/Clangbasic'
 import Clangtestintro from '@/components/Clangtestintro'
+import Clangtest from '@/components/Clangtest'
 import Os from '@/components/Os'
 import Ostestintro from '@/components/Ostestintro'
+import Ostest from '@/components/Ostest'
 import Ds from '@/components/Ds'
 import Cc from '@/components/Cc'
 import Cn from '@/components/Cn'
@@ -88,6 +90,11 @@ export default new Router({
       component: Clangtestintro
     },
     {
+      path: '/clangtest',
+      name: 'C语言测验',
+      component: Clangtest
+    },
+    {
       path: '/os',
       name: '操作系统',
       component: Os
@@ -96,6 +103,11 @@ export default new Router({
       path: '/ostestintro',
       name: '操作系统测验',
       component: Ostestintro
+    },
+    {
+      path: '/ostest',
+      name: '操作系统测验',
+      component: Ostest
     },
     {
       path: '/ds',

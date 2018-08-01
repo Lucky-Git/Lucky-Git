@@ -219,7 +219,7 @@
           <div v-if="clicknum==10">
             <md-radio v-model="radio" value="1">&lt;a href="url" new&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;a href="url" target="_self"&gt;</md-radio>
-            <md-radio v-model="radio" value="3">&lt;a href="url" target="new"&gt</md-radio>
+            <md-radio v-model="radio" value="3">&lt;a href="url" target="new"&gt;</md-radio>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21">
             <md-chip v-if="keys[9]==1" class="md-primary">&lt;a href="url" new&gt;</md-chip>
@@ -446,7 +446,6 @@ export default {
         this.answer.push(this.radio);
         this.clicknum += 1;
         this.radio = 0;
-        console.log(this.answer)
       }
       if (this.clicknum == 21) {
         for (var i = this.answer.length - 1; i >= 0; i--) {
