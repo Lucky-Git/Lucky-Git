@@ -26,21 +26,27 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Html">
+            <span class="md-list-item-text">HTML教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Htmlintro">
+            <span class="md-list-item-text">HTML简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
+          <md-list-item to="/Htmledit">
+            <span class="md-list-item-text">HTML编辑器</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Htmlbasic">
+            <span class="md-list-item-text">HTML基础</span>
+          </md-list-item>
+          <md-list-item to="/Htmlobj">
+            <span class="md-list-item-text">HTML实例</span>
+          </md-list-item>
+          <md-list-item to="/Htmltestintro">
+            <span class="md-list-item-text">HTML测验简介</span>
+          </md-list-item>
+          <md-list-item to="/Htmltest">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">HTML测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -53,7 +59,7 @@
           <span v-if="clicknum==21" class="md-title">测验分数: {{score}}/20</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==1||clicknum==21" class="md-title">1.HTML 指的是？</span>
+          <span v-if="clicknum==1||clicknum==21" class="md-title">1.HTML 指的是?</span>
           <div v-if="clicknum==1">
             <md-radio v-model="radio" value="1">超文本标记语言（Hyper Text Markup Language）</md-radio>
             <md-radio v-model="radio" value="2">家庭工具标记语言（Home Tool Markup Language）</md-radio>
@@ -89,7 +95,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==3||clicknum==21" class="md-title">3.在下列的 HTML 中，哪个是最大的标题？</span>
+          <span v-if="clicknum==3||clicknum==21" class="md-title">3.在下列的 HTML 中, 哪个是最大的标题?</span>
           <div v-if="clicknum==3">
             <md-radio v-model="radio" value="1">&lt;head&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;heading&gt;</md-radio>
@@ -107,7 +113,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==4||clicknum==21" class="md-title">4.在下列的 HTML 中，哪个可以插入折行？</span>
+          <span v-if="clicknum==4||clicknum==21" class="md-title">4.在下列的 HTML 中, 哪个可以插入折行?</span>
           <div v-if="clicknum==4">
             <md-radio v-model="radio" value="1">&lt;br&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;lb&gt;</md-radio>
@@ -125,7 +131,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==5||clicknum==21" class="md-title">5.在下列的 HTML 中，哪个可以添加背景颜色？</span>
+          <span v-if="clicknum==5||clicknum==21" class="md-title">5.在下列的 HTML 中, 哪个可以添加背景颜色?</span>
           <div v-if="clicknum==5">
             <md-radio v-model="radio" value="1">&lt;body color="yellow"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;background&gtyellow&lt;/background&gt;</md-radio>
@@ -143,7 +149,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==6||clicknum==21" class="md-title">6.请选择产生粗体字的 HTML 标签：</span>
+          <span v-if="clicknum==6||clicknum==21" class="md-title">6.请选择产生粗体字的 HTML 标签: </span>
           <div v-if="clicknum==6">
             <md-radio v-model="radio" value="1">&lt;bb&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;b&gt;</md-radio>
@@ -161,7 +167,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==7||clicknum==21" class="md-title">7.请选择产生斜体字的 HTML 标签：</span>
+          <span v-if="clicknum==7||clicknum==21" class="md-title">7.请选择产生斜体字的 HTML 标签: </span>
           <div v-if="clicknum==7">
             <md-radio v-model="radio" value="1">&lt;i&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;italics&gt;</md-radio>
@@ -179,7 +185,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==8||clicknum==21" class="md-title">8.在下列的 HTML 中，哪个可以产生超链接？</span>
+          <span v-if="clicknum==8||clicknum==21" class="md-title">8.在下列的 HTML 中, 哪个可以产生超链接?</span>
           <div v-if="clicknum==8">
             <md-radio v-model="radio" value="1">&lt;a url="http://www.w3school.com.cn"&gtW3School.com.cn&lt;/a&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;a href="http://www.w3school.com.cn"&gtW3School&lt;/a&gt;</md-radio>
@@ -197,7 +203,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==9||clicknum==21" class="md-title">9.如何制作电子邮件链接？</span>
+          <span v-if="clicknum==9||clicknum==21" class="md-title">9.如何制作电子邮件链接?</span>
           <div v-if="clicknum==9">
             <md-radio v-model="radio" value="1">&lt;a href="xxx@yyy"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;mail href="xxx@yyy"&gt;</md-radio>
@@ -215,7 +221,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==10||clicknum==21" class="md-title">10.如何在新窗口打开链接？</span>
+          <span v-if="clicknum==10||clicknum==21" class="md-title">10.如何在新窗口打开链接?</span>
           <div v-if="clicknum==10">
             <md-radio v-model="radio" value="1">&lt;a href="url" new&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;a href="url" target="_self"&gt;</md-radio>
@@ -233,7 +239,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==11||clicknum==21" class="md-title">11.以下选项中，哪个全部都是表格标签？</span>
+          <span v-if="clicknum==11||clicknum==21" class="md-title">11.以下选项中, 哪个全部都是表格标签?</span>
           <div v-if="clicknum==11">
             <md-radio v-model="radio" value="1">&lt;table&gt;&lt;tr&gt;&lt;td&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;table&gt;&lt;tr&gt;&lt;tt&gt;</md-radio>
@@ -251,7 +257,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==12||clicknum==21" class="md-title">12.请选择可以使单元格中的内容进行左对齐的正确 HTML 标签：</span>
+          <span v-if="clicknum==12||clicknum==21" class="md-title">12.请选择可以使单元格中的内容进行左对齐的正确 HTML 标签: </span>
           <div v-if="clicknum==12">
             <md-radio v-model="radio" value="1">&lt;td align="left"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;td valign="left"&gt;</md-radio>
@@ -269,7 +275,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==13||clicknum==21" class="md-title">13.如何产生带有数字列表符号的列表？</span>
+          <span v-if="clicknum==13||clicknum==21" class="md-title">13.如何产生带有数字列表符号的列表?</span>
           <div v-if="clicknum==13">
             <md-radio v-model="radio" value="1">&lt;ul&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;dl&gt;</md-radio>
@@ -287,7 +293,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==14||clicknum==21" class="md-title">14.如何产生带有圆点列表符号的列表？</span>
+          <span v-if="clicknum==14||clicknum==21" class="md-title">14.如何产生带有圆点列表符号的列表?</span>
           <div v-if="clicknum==14">
             <md-radio v-model="radio" value="1">&lt;list&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;ol&gt;</md-radio>
@@ -305,7 +311,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==15||clicknum==21" class="md-title">15.在下列的 HTML 中，哪个可以产生复选框？</span>
+          <span v-if="clicknum==15||clicknum==21" class="md-title">15.在下列的 HTML 中, 哪个可以产生复选框?</span>
           <div v-if="clicknum==15">
             <md-radio v-model="radio" value="1">&lt;checkbox&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;input type="checkbox"&gt;</md-radio>
@@ -323,7 +329,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==16||clicknum==21" class="md-title">16.在下列的 HTML 中，哪个可以产生文本框？</span>
+          <span v-if="clicknum==16||clicknum==21" class="md-title">16.在下列的 HTML 中, 哪个可以产生文本框?</span>
           <div v-if="clicknum==16">
             <md-radio v-model="radio" value="1">&lt;input type="textfield"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;textinput type="text"&gt;</md-radio>
@@ -341,7 +347,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==17||clicknum==21" class="md-title">17.在下列的 HTML 中，哪个可以产生下拉列表？</span>
+          <span v-if="clicknum==17||clicknum==21" class="md-title">17.在下列的 HTML 中, 哪个可以产生下拉列表?</span>
           <div v-if="clicknum==17">
             <md-radio v-model="radio" value="1">&lt;input type="list"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;input type="dropdown"&gt;</md-radio>
@@ -359,7 +365,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==18||clicknum==21" class="md-title">18.在下列的 HTML 中，哪个可以产生文本区（textarea）？</span>
+          <span v-if="clicknum==18||clicknum==21" class="md-title">18.在下列的 HTML 中, 哪个可以产生文本区（textarea）?</span>
           <div v-if="clicknum==18">
             <md-radio v-model="radio" value="1">&lt;textarea&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;input type="textarea"&gt;</md-radio>
@@ -377,7 +383,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==19||clicknum==21" class="md-title">19.在下列的 HTML 中，哪个可以插入图像？</span>
+          <span v-if="clicknum==19||clicknum==21" class="md-title">19.在下列的 HTML 中, 哪个可以插入图像?</span>
           <div v-if="clicknum==19">
             <md-radio v-model="radio" value="1">&lt;image src="image.gif"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;img src="image.gif"&gt;</md-radio>
@@ -395,7 +401,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==20||clicknum==21" class="md-title">20.在下列的 HTML 中，哪个可以插入背景图像？</span>
+          <span v-if="clicknum==20||clicknum==21" class="md-title">20.在下列的 HTML 中, 哪个可以插入背景图像?</span>
           <div v-if="clicknum==20">
             <md-radio v-model="radio" value="1">&lt;body background="background.gif"&gt;</md-radio>
             <md-radio v-model="radio" value="2">&lt;background img="background.gif"&gt;</md-radio>

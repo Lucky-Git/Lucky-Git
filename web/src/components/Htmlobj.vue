@@ -26,21 +26,27 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Html">
+            <span class="md-list-item-text">HTML教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Htmlintro">
+            <span class="md-list-item-text">HTML简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
+          <md-list-item to="/Htmledit">
+            <span class="md-list-item-text">HTML编辑器</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Htmlbasic">
+            <span class="md-list-item-text">HTML基础</span>
+          </md-list-item>
+          <md-list-item to="/Htmlobj">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">HTML实例</span>
+          </md-list-item>
+          <md-list-item to="/Htmltestintro">
+            <span class="md-list-item-text">HTML测验简介</span>
+          </md-list-item>
+          <md-list-item to="/Htmltest">
+            <span class="md-list-item-text">HTML测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -62,9 +68,9 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_basic">一个简单的HTML文件</a></p>
-          <p>这个例子是一个很简单的 HTML 文件，使用了尽可能少的 HTML 标签。它向您演示了 body 元素中的内容是如何被浏览器显示的。</p>
+          <p>这个例子是一个很简单的 HTML 文件, 使用了尽可能少的 HTML 标签。它向您演示了 body 元素中的内容是如何被浏览器显示的。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_paragraphs1">简单的段落</a></p>
-          <p>此例演示：段落元素中的文字如何被浏览器显示。</p>
+          <p>此例演示: 段落元素中的文字如何被浏览器显示。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_paragraphs2">更多的段落</a></p>
           <p>本例演示段落元素的某些缺省的行为。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_poem">“诗歌”问题</a></p>
@@ -114,11 +120,11 @@
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_imglink">将图像作为链接</a></p>
           <p>本例演示如何使用图像作为链接。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_link_target">在新的浏览器窗口打开链接</a></p>
-          <p>本例演示如何在新窗口打开一个页面，这样的话访问者就无需离开你的站点了。</p>
+          <p>本例演示如何在新窗口打开一个页面, 这样的话访问者就无需离开你的站点了。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_link_locations">链接到同一个页面的不同位置</a></p>
           <p>本例演示如何使用链接跳转至文档的另一个部分</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_getfree">跳出框架</a></p>
-          <p>本例演示如何跳出框架，假如你的页面被固定在框架之内。</p>
+          <p>本例演示如何跳出框架, 假如你的页面被固定在框架之内。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_mailto">创建电子邮件链接</a></p>
           <p>本例演示如何如何链接到一个邮件。（本例在安装邮件客户端程序后才能工作。）</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_mailto2">创建电子邮件链接 2</a></p>
@@ -130,15 +136,15 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_cols">垂直框架</a></p>
-          <p>本例演示：如何使用三份不同的文档制作一个垂直框架。</p>
+          <p>本例演示: 如何使用三份不同的文档制作一个垂直框架。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_rows">水平框架</a></p>
-          <p>本例演示：如何使用三份不同的文档制作一个水平框架。</p>
+          <p>本例演示: 如何使用三份不同的文档制作一个水平框架。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_mailto2">如何使用 &lt;noframes&gt;标签</a></p>
-          <p>本例演示：如何使用 &lt;noframes&gt;标签。</p>
+          <p>本例演示: 如何使用 &lt;noframes&gt;标签。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_mix">混合框架结构</a></p>
-          <p>本例演示如何制作含有三份文档的框架结构，同时将他们混合置于行和列之中。</p>
+          <p>本例演示如何制作含有三份文档的框架结构, 同时将他们混合置于行和列之中。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_noresize">含有 noresize="noresize" 属性的框架结构</a></p>
-          <p>本例演示 noresize 属性。在本例中，框架是不可调整尺寸的。在框架间的边框上拖动鼠标，你会发现边框是无法移动的。</p>
+          <p>本例演示 noresize 属性。在本例中, 框架是不可调整尺寸的。在框架间的边框上拖动鼠标, 你会发现边框是无法移动的。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_navigation">导航框架</a></p>
           <p>本例演示如何制作导航框架。导航框架包含一个将第二个框架作为目标的链接列表。名为 "contents.htm" 的文件包含三个链接。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_iframe">内联框架</a></p>
@@ -146,7 +152,7 @@
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_mailto2">跳转至框架内的一个指定的节</a></p>
           <p>本例演示两个框架。其中的一个框架设置了指向另一个文件内指定的节的链接。这个"link.htm"文件内指定的节使用 &lt;a name="C10"&gt;进行标识。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_frame_navigation2">使用框架导航跳转至指定的节</a></p>
-          <p>本例演示两个框架。左侧的导航框架包含了一个链接列表，这些链接将第二个框架作为目标。第二个框架显示被链接的文档。导航框架其中的链接指向目标文件中指定的节。</p>
+          <p>本例演示两个框架。左侧的导航框架包含了一个链接列表, 这些链接将第二个框架作为目标。第二个框架显示被链接的文档。导航框架其中的链接指向目标文件中指定的节。</p>
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
@@ -220,7 +226,7 @@
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_image_size">调整图像尺寸</a></p>
           <p>本例演示如何将图片调整到不同的尺寸。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_image_alt">为图片显示替换文本</a></p>
-          <p>本例演示如何为图片显示替换文本。在浏览器无法载入图像时，替换文本属性告诉读者们失去的信息。为页面上的图像都加上替换文本属性是个好习惯。</p>
+          <p>本例演示如何为图片显示替换文本。在浏览器无法载入图像时, 替换文本属性告诉读者们失去的信息。为页面上的图像都加上替换文本属性是个好习惯。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_image_link">制作图像链接</a></p>
           <p>本例演示如何将图像作为一个链接使用。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_areamap">创建图像映射</a></p>
@@ -234,9 +240,9 @@
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_back_good">搭配良好的背景和颜色</a></p>
-          <p>一个背景颜色和文字颜色搭配良好的例子，使页面中的文字易于阅读。</p>
+          <p>一个背景颜色和文字颜色搭配良好的例子, 使页面中的文字易于阅读。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_back_bad">搭配得不好的背景和颜色</a></p>
-          <p>一个背景颜色和文字颜色搭配得不好的例子，使页面中的文字难于阅读。</p>
+          <p>一个背景颜色和文字颜色搭配得不好的例子, 使页面中的文字难于阅读。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_back_img">可用性强的背景图像</a></p>
           <p>背景图像和文字颜色使页面文本易于阅读的例子。</p>
           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_back_img2">可用性强的背景图像 2</a></p>

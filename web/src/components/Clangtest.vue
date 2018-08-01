@@ -26,21 +26,21 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Clang">
+            <span class="md-list-item-text">C语言教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Clangintro">
+            <span class="md-list-item-text">C语言简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
+          <md-list-item to="/Clangbasic">
+            <span class="md-list-item-text">C语言基础</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Clangtestintro">
+            <span class="md-list-item-text">C语言测验简介</span>
+          </md-list-item>
+          <md-list-item to="/Clangtest">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">C语言测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -92,17 +92,17 @@
           <span v-if="clicknum==3||clicknum==21" class="md-title">3.以下说法中正确的是</span>
           <div v-if="clicknum==3">
             <md-radio v-model="radio" value="1">C语言程序总是从第一个定义的函数开始执行</md-radio>
-            <md-radio v-model="radio" value="2">在C语言程序中，要调用的函数必须在main( )函数中定义</md-radio>
+            <md-radio v-model="radio" value="2">在C语言程序中, 要调用的函数必须在main( )函数中定义</md-radio>
             <md-radio v-model="radio" value="3">C语言程序总是从main( )函数开始执行</md-radio>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21">
             <md-chip v-if="keys[2]==1" class="md-primary">C语言程序总是从第一个定义的函数开始执行</md-chip>
-            <md-chip v-if="keys[2]==2" class="md-primary">在C语言程序中，要调用的函数必须在main( )函数中定义</md-chip>
+            <md-chip v-if="keys[2]==2" class="md-primary">在C语言程序中, 要调用的函数必须在main( )函数中定义</md-chip>
             <md-chip v-if="keys[2]==3" class="md-primary">C语言程序总是从main( )函数开始执行</md-chip>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21&&keys[2]!=answer[2]">
             <md-chip v-if="answer[2]==1" class="md-accent">C语言程序总是从第一个定义的函数开始执行</md-chip>
-            <md-chip v-if="answer[2]==2" class="md-accent">在C语言程序中，要调用的函数必须在main( )函数中定义</md-chip>
+            <md-chip v-if="answer[2]==2" class="md-accent">在C语言程序中, 要调用的函数必须在main( )函数中定义</md-chip>
             <md-chip v-if="answer[2]==3" class="md-accent">C语言程序总是从main( )函数开始执行</md-chip>
           </div>
         </div>
@@ -161,7 +161,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==7||clicknum==21" class="md-title">7.下列四组选项中，正确的C语言标识符是：</span>
+          <span v-if="clicknum==7||clicknum==21" class="md-title">7.下列四组选项中, 正确的C语言标识符是: </span>
           <div v-if="clicknum==7">
             <md-radio v-model="radio" value="1">%x</md-radio>
             <md-radio v-model="radio" value="2">a+b</md-radio>
@@ -215,7 +215,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==10||clicknum==21" class="md-title">10.在C语言程序中，表达式5%2的结果是</span>
+          <span v-if="clicknum==10||clicknum==21" class="md-title">10.在C语言程序中, 表达式5%2的结果是</span>
           <div v-if="clicknum==10">
             <md-radio v-model="radio" value="1">2.5</md-radio>
             <md-radio v-model="radio" value="2">2</md-radio>
@@ -233,7 +233,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==11||clicknum==21" class="md-title">11.C语言中，关系表达式和逻辑表达式的值是</span>
+          <span v-if="clicknum==11||clicknum==21" class="md-title">11.C语言中, 关系表达式和逻辑表达式的值是</span>
           <div v-if="clicknum==11">
             <md-radio v-model="radio" value="1">0</md-radio>
             <md-radio v-model="radio" value="2">0或1</md-radio>
@@ -269,7 +269,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==13||clicknum==21" class="md-title">13.设整型变量 a=2，则执行下列语句后，浮点型变量b的值不为0.5的是</span>
+          <span v-if="clicknum==13||clicknum==21" class="md-title">13.设整型变量 a=2, 则执行下列语句后, 浮点型变量b的值不为0.5的是</span>
           <div v-if="clicknum==13">
             <md-radio v-model="radio" value="1">b=1.0/a</md-radio>
             <md-radio v-model="radio" value="2">b=(float)(1/a)</md-radio>
@@ -287,7 +287,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==14||clicknum==21" class="md-title">14.若“int n; float f=13.8;”,则执行“n=(int)f%3”后，n的值是</span>
+          <span v-if="clicknum==14||clicknum==21" class="md-title">14.若“int n; float f=13.8;”,则执行“n=(int)f%3”后, n的值是</span>
           <div v-if="clicknum==14">
             <md-radio v-model="radio" value="1">1</md-radio>
             <md-radio v-model="radio" value="2">4</md-radio>
@@ -307,18 +307,18 @@
         <div style="margin-top: 20px;margin-left: 15px;">
           <span v-if="clicknum==15||clicknum==21" class="md-title">15.以下对一维数组a的正确说明是</span>
           <div v-if="clicknum==15">
-            <md-radio v-model="radio" value="1">int a[]；</md-radio>
-            <md-radio v-model="radio" value="2">int k＝5，a[k]；</md-radio>
+            <md-radio v-model="radio" value="1">int a[]; </md-radio>
+            <md-radio v-model="radio" value="2">int k＝5, a[k]; </md-radio>
             <md-radio v-model="radio" value="3">char a[3]={‘a’,’b’,’c’};</md-radio>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21">
-            <md-chip v-if="keys[14]==1" class="md-primary">int a[]；</md-chip>
-            <md-chip v-if="keys[14]==2" class="md-primary">int k＝5，a[k]；</md-chip>
+            <md-chip v-if="keys[14]==1" class="md-primary">int a[]; </md-chip>
+            <md-chip v-if="keys[14]==2" class="md-primary">int k＝5, a[k]; </md-chip>
             <md-chip v-if="keys[14]==3" class="md-primary">char a[3]={‘a’,’b’,’c’};</md-chip>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21&&keys[14]!=answer[14]">
-            <md-chip v-if="answer[14]==1" class="md-accent">int a[]；</md-chip>
-            <md-chip v-if="answer[14]==2" class="md-accent">int k＝5，a[k]；</md-chip>
+            <md-chip v-if="answer[14]==1" class="md-accent">int a[]; </md-chip>
+            <md-chip v-if="answer[14]==2" class="md-accent">int k＝5, a[k]; </md-chip>
             <md-chip v-if="answer[14]==3" class="md-accent">char a[3]={‘a’,’b’,’c’};</md-chip>
           </div>
         </div>
@@ -362,7 +362,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==18||clicknum==21" class="md-title">18.已知：int  a[10]; 则对a数组元素的正确引用是</span>
+          <span v-if="clicknum==18||clicknum==21" class="md-title">18.已知: int  a[10]; 则对a数组元素的正确引用是</span>
           <div v-if="clicknum==18">
             <md-radio v-model="radio" value="1">a[3.5]</md-radio>
             <md-radio v-model="radio" value="2">a(5)</md-radio>
@@ -380,7 +380,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==19||clicknum==21" class="md-title">19.若有以下数组说明，则i=10;a[a[i]]元素数值是</span>
+          <span v-if="clicknum==19||clicknum==21" class="md-title">19.若有以下数组说明, 则i=10;a[a[i]]元素数值是</span>
           <div v-if="clicknum==19">
             <md-radio v-model="radio" value="1">10</md-radio>
             <md-radio v-model="radio" value="2">9</md-radio>
@@ -398,7 +398,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==20||clicknum==21" class="md-title">20.若有说明：int a[][3]={/{1,2,3},{4,5},{6,7}/}; 则数组a的第一维的大小为: </span>
+          <span v-if="clicknum==20||clicknum==21" class="md-title">20.若有说明: int a[][3]={/{1,2,3},{4,5},{6,7}/}; 则数组a的第一维的大小为: </span>
           <div v-if="clicknum==20">
             <md-radio v-model="radio" value="1">2</md-radio>
             <md-radio v-model="radio" value="2">3</md-radio>

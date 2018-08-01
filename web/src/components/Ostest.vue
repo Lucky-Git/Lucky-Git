@@ -26,21 +26,15 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Os">
+            <span class="md-list-item-text">操作系统教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Ostestintro">
+            <span class="md-list-item-text">操作系统测验简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Ostest">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">操作系统测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -89,7 +83,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==3||clicknum==21" class="md-title">3.处理器执行的指令被分成两类，其中有一类称为特权指令，它只允许（）使用</span>
+          <span v-if="clicknum==3||clicknum==21" class="md-title">3.处理器执行的指令被分成两类, 其中有一类称为特权指令, 它只允许（）使用</span>
           <div v-if="clicknum==3">
             <md-radio v-model="radio" value="1">操作员</md-radio>
             <md-radio v-model="radio" value="2">联机用户</md-radio>
@@ -107,7 +101,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==4||clicknum==21" class="md-title">4.当用户程序执行访管指令时，中断装置将使中央处理器（）工作</span>
+          <span v-if="clicknum==4||clicknum==21" class="md-title">4.当用户程序执行访管指令时, 中断装置将使中央处理器（）工作</span>
           <div v-if="clicknum==4">
             <md-radio v-model="radio" value="1">维持在目态</md-radio>
             <md-radio v-model="radio" value="2">从目态转换到管态</md-radio>
@@ -125,7 +119,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==5||clicknum==21" class="md-title">5.进程所请求的一次打印输出结束后，将使进程状态从</span>
+          <span v-if="clicknum==5||clicknum==21" class="md-title">5.进程所请求的一次打印输出结束后, 将使进程状态从</span>
           <div v-if="clicknum==5">
             <md-radio v-model="radio" value="1">运行态变为等待态</md-radio>
             <md-radio v-model="radio" value="2">就绪态变为运行态</md-radio>
@@ -143,7 +137,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==6||clicknum==21" class="md-title">6.采用动态重定位方式装入的作业，在执行中允许（）将其移动</span>
+          <span v-if="clicknum==6||clicknum==21" class="md-title">6.采用动态重定位方式装入的作业, 在执行中允许（）将其移动</span>
           <div v-if="clicknum==6">
             <md-radio v-model="radio" value="1">用户有条件地</md-radio>
             <md-radio v-model="radio" value="2">用户无条件地</md-radio>
@@ -161,7 +155,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==7||clicknum==21" class="md-title">7.分页式存储管理中，地址转换工作是由（）完成的</span>
+          <span v-if="clicknum==7||clicknum==21" class="md-title">7.分页式存储管理中, 地址转换工作是由（）完成的</span>
           <div v-if="clicknum==7">
             <md-radio v-model="radio" value="1">硬件</md-radio>
             <md-radio v-model="radio" value="2">地址转换程序</md-radio>
@@ -179,7 +173,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==8||clicknum==21" class="md-title">8.如果允许不同用户的文件可以具有相同的文件名，通常采用（）来保证按名存取的安全是</span>
+          <span v-if="clicknum==8||clicknum==21" class="md-title">8.如果允许不同用户的文件可以具有相同的文件名, 通常采用（）来保证按名存取的安全是</span>
           <div v-if="clicknum==8">
             <md-radio v-model="radio" value="1">建立索引表</md-radio>
             <md-radio v-model="radio" value="2">建立指针</md-radio>
@@ -197,7 +191,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==9||clicknum==21" class="md-title">9.对记录式文件，操作系统为用户存取文件信息的最小单位是()</span>
+          <span v-if="clicknum==9||clicknum==21" class="md-title">9.对记录式文件, 操作系统为用户存取文件信息的最小单位是()</span>
           <div v-if="clicknum==9">
             <md-radio v-model="radio" value="1">字符</md-radio>
             <md-radio v-model="radio" value="2">数据项</md-radio>
@@ -215,7 +209,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==10||clicknum==21" class="md-title">10.为了提高设备分配的灵活性，用户申请设备时应指定（）号</span>
+          <span v-if="clicknum==10||clicknum==21" class="md-title">10.为了提高设备分配的灵活性, 用户申请设备时应指定（）号</span>
           <div v-if="clicknum==10">
             <md-radio v-model="radio" value="1">设备类相对</md-radio>
             <md-radio v-model="radio" value="2">设备类绝对</md-radio>
@@ -269,7 +263,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==13||clicknum==21" class="md-title">13.一作业进入内存后，则所属该作业的进程初始时处于（）状态</span>
+          <span v-if="clicknum==13||clicknum==21" class="md-title">13.一作业进入内存后, 则所属该作业的进程初始时处于（）状态</span>
           <div v-if="clicknum==13">
             <md-radio v-model="radio" value="1">运行</md-radio>
             <md-radio v-model="radio" value="2">等待</md-radio>
@@ -323,7 +317,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==16||clicknum==21" class="md-title">16.若系统中有五台绘图仪，有多个进程均需要使用两台，规定每个进程一次仅允许申请一台，则至多允许（）个进程参于竞争，而不会发生死锁</span>
+          <span v-if="clicknum==16||clicknum==21" class="md-title">16.若系统中有五台绘图仪, 有多个进程均需要使用两台, 规定每个进程一次仅允许申请一台, 则至多允许（）个进程参于竞争, 而不会发生死锁</span>
           <div v-if="clicknum==16">
             <md-radio v-model="radio" value="1">2</md-radio>
             <md-radio v-model="radio" value="2">3</md-radio>
@@ -345,21 +339,21 @@
           <div v-if="clicknum==17">
             <md-radio v-model="radio" value="1">进程释放资源</md-radio>
             <md-radio v-model="radio" value="2">一个进程进入死循环</md-radio>
-            <md-radio v-model="radio" value="3">多个进程竞争，资源出现了循环等待</md-radio>
+            <md-radio v-model="radio" value="3">多个进程竞争, 资源出现了循环等待</md-radio>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21">
             <md-chip v-if="keys[16]==1" class="md-primary">进程释放资源 </md-chip>
             <md-chip v-if="keys[16]==2" class="md-primary">一个进程进入死循环</md-chip>
-            <md-chip v-if="keys[16]==3" class="md-primary">多个进程竞争，资源出现了循环等待</md-chip>
+            <md-chip v-if="keys[16]==3" class="md-primary">多个进程竞争, 资源出现了循环等待</md-chip>
           </div>
           <div style="margin-top: 10px;" v-if="clicknum==21&&keys[16]!=answer[16]">
             <md-chip v-if="answer[16]==1" class="md-accent">进程释放资源</md-chip>
             <md-chip v-if="answer[16]==2" class="md-accent">一个进程进入死循环</md-chip>
-            <md-chip v-if="answer[16]==3" class="md-accent">多个进程竞争，资源出现了循环等待</md-chip>
+            <md-chip v-if="answer[16]==3" class="md-accent">多个进程竞争, 资源出现了循环等待</md-chip>
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==18||clicknum==21" class="md-title">18.主要由于（）原因，使UNIX易于移植</span>
+          <span v-if="clicknum==18||clicknum==21" class="md-title">18.主要由于（）原因, 使UNIX易于移植</span>
           <div v-if="clicknum==18">
             <md-radio v-model="radio" value="1">UNIX大部分由汇编少部分用C语言编写</md-radio>
             <md-radio v-model="radio" value="2">UNIX是用汇编语言编写的</md-radio>
@@ -377,7 +371,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==19||clicknum==21" class="md-title">19.UNIX系统中，进程调度采用的技术是</span>
+          <span v-if="clicknum==19||clicknum==21" class="md-title">19.UNIX系统中, 进程调度采用的技术是</span>
           <div v-if="clicknum==19">
             <md-radio v-model="radio" value="1">先来先服务</md-radio>
             <md-radio v-model="radio" value="2">静态优先数</md-radio>
@@ -395,7 +389,7 @@
           </div>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span v-if="clicknum==20||clicknum==21" class="md-title">20.UNIX系统中，文件存贮器的管理采用的是</span>
+          <span v-if="clicknum==20||clicknum==21" class="md-title">20.UNIX系统中, 文件存贮器的管理采用的是</span>
           <div v-if="clicknum==20">
             <md-radio v-model="radio" value="1">位图法</md-radio>
             <md-radio v-model="radio" value="2">空闲块表法</md-radio>

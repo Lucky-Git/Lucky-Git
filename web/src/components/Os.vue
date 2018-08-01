@@ -26,21 +26,15 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Os">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">操作系统教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Ostestintro">
+            <span class="md-list-item-text">操作系统测验简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Ostest">
+            <span class="md-list-item-text">操作系统测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>

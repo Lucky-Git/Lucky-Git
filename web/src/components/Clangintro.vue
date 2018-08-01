@@ -26,21 +26,21 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Clang">
+            <span class="md-list-item-text">C语言教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Clangintro">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">C语言简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
+          <md-list-item to="/Clangbasic">
+            <span class="md-list-item-text">C语言基础</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Clangtestintro">
+            <span class="md-list-item-text">C语言测验简介</span>
+          </md-list-item>
+          <md-list-item to="/Clangtest">
+            <span class="md-list-item-text">C语言测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -79,10 +79,10 @@
                 <div class="md-title">实例解释</div>
               </md-card-header>
               <md-card-content>
-                <li>#include"stdio.h":编译预处理指令，负责组织程序</li>
+                <li>#include"stdio.h":编译预处理指令, 负责组织程序</li>
                 <li>int main():主函数的函数头</li>
                 <li>{}:一对大括号内的是函数头</li>
-                <li>printf("Hello，World!"):从屏幕输出字符串“Hello,World!”</li>
+                <li>printf("Hello, World!"):从屏幕输出字符串“Hello,World!”</li>
                 <li>return 0:函数返回值</li>
               </md-card-content>
             </md-card>
@@ -93,17 +93,17 @@
         </div>
         <md-divider></md-divider>
         <div style="margin-top: 20px;margin-left: 15px;">
-          <span class="md-title">什么是程序？</span>
+          <span class="md-title">什么是程序?</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <span class="md-subheading">程序是为了通过计算机实现某种功能而编写的计算机指令序列。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <ul>
-            <li>计算机本身并不能做任何事情，需要人告诉它要做什么事情、每一步要如何做。计算机不能理解人类的自然语言，因此要通过计算机能够理解的语言告诉计算机做什么，这种语言就是程序设计语言。</li>
+            <li>计算机本身并不能做任何事情, 需要人告诉它要做什么事情、每一步要如何做。计算机不能理解人类的自然语言, 因此要通过计算机能够理解的语言告诉计算机做什么, 这种语言就是程序设计语言。</li>
             <li>程序设计语言分为机器语言和高级语言。</li>
-            <li>机器语言：一类完全针对计算机的计算特点的语言，如机器码、汇编语言。（这类语言对于人类来说难以读懂，虽然执行效率高，但编写率低，编程工作量巨大。）</li>
-            <li>高级程序设计语言：为了方便人类的理解，人们创造了高级程序设计语言，这类语言在针对计算机的计算特点外，兼顾了人类的语言特点，可读性强，便携方便，如C语言、FORTRAN、java等。</li>
+            <li>机器语言: 一类完全针对计算机的计算特点的语言, 如机器码、汇编语言。（这类语言对于人类来说难以读懂, 虽然执行效率高, 但编写率低, 编程工作量巨大。）</li>
+            <li>高级程序设计语言: 为了方便人类的理解, 人们创造了高级程序设计语言, 这类语言在针对计算机的计算特点外, 兼顾了人类的语言特点, 可读性强, 便携方便, 如C语言、FORTRAN、java等。</li>
           </ul>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
@@ -112,9 +112,9 @@
         <div style="margin-top: 20px;margin-left: 15px;margin-bottom: 20px">
           <ul>
             <li>每一条指令称为一条语句。</li>
-            <li>C语言以；表示一条语句的结束。</li>
-            <li>程序就是由函数组成的，每个程序至少有一个函数，那就是主函数main。</li>
-            <li>程序中还有一些编译预处理指令，用来在程序编译前组织代码。</li>
+            <li>C语言以; 表示一条语句的结束。</li>
+            <li>程序就是由函数组成的, 每个程序至少有一个函数, 那就是主函数main。</li>
+            <li>程序中还有一些编译预处理指令, 用来在程序编译前组织代码。</li>
           </ul>
         </div>
         <md-divider></md-divider>

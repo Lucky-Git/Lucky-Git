@@ -26,21 +26,15 @@
       </md-app-toolbar>
       <md-app-drawer md-permanent="card">
         <md-list>
-          <md-list-item>
-            <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Inbox</span>
+          <md-list-item to="/Os">
+            <span class="md-list-item-text">操作系统教程</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>send</md-icon>
-            <span class="md-list-item-text">Sent Mail</span>
+          <md-list-item to="/Ostestintro">
+            <md-icon>chevron_right</md-icon>
+            <span class="md-list-item-text">操作系统测验简介</span>
           </md-list-item>
-          <md-list-item>
-            <md-icon>delete</md-icon>
-            <span class="md-list-item-text">Trash</span>
-          </md-list-item>
-          <md-list-item>
-            <md-icon>error</md-icon>
-            <span class="md-list-item-text">Spam</span>
+          <md-list-item to="/Ostest">
+            <span class="md-list-item-text">操作系统测验</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
@@ -64,13 +58,13 @@
           <span class="md-subheading">关于本测试</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-body-2">本测验包含 20 道题。 本测验是非官方的测试，它仅仅提供了一个了解您对操作系统的掌握程度的工具。</span>
+          <span class="md-body-2">本测验包含 20 道题。 本测验是非官方的测试, 它仅仅提供了一个了解您对操作系统的掌握程度的工具。</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
           <span class="md-subheading">测验会被记分</span>
         </div>
         <div style="margin-top: 20px;margin-left: 15px">
-          <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后，系统会为您的测验打分，并提供每道题目的正确答案。其中，绿色为正确答案，而红色为用户自己的答案。</span>
+          <span class="md-body-2">每道题的分值是 1 分。在您完成全部的 20 道题之后, 系统会为您的测验打分, 并提供每道题目的正确答案。其中, 绿色为正确答案, 而红色为用户自己的答案。</span>
         </div>
         <div style="margin-top: 20px;margin-bottom: 20px">
           <router-link to="/Ostest">
