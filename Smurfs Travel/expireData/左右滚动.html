@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	ul{
+		margin:20px auto;
+		list-style:none;
+		width:1000px;
+		display:flex;
+		justify-content:space-content;
+		border:1px solid red;
+	}
+	ul>li{
+		margin-right:20px;
+		
+	}
+  </style>
+ </head>
+ <body>
+	<ul>
+		<li>
+			<a href="">
+				<img src="img/type_1.jpg" alt="">
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/type_2.jpg" alt="">
+				</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/type_3.jpg" alt="">
+				</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/type_4.jpg" alt="">
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/type_5.jpg" alt="">
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<img src="img/type_6.jpg" alt="">
+			</a>
+		</li>
+	</ul>
+	<a href="">左</a>
+	<a href="">右</a>
+  <script src="js/jquery.min.js"></script>
+  <script>
+	var arr=['p1','p2','p3','p4','p5'];
+	var index=0;
+	//点击上一张的封装函数
+	function btn_left(){ 
+		arr.unshift(arr[4]);//数组头部放入最后一张图片
+		arr.pop();//数组尾部弹出
+		$(".banner_content li").each(function(i,elem){
+			$(elem).removeClass()
+					.addClass(arr[i]);
+		});
+		index--;
+		if(index<0){
+			index=4;
+		}
+		show();
+	}
+	//点击下一张的封装函数
+	function btn_right(){
+		arr.push(arr[0]);
+		arr.shift();//数组头部弹出
+		$(".banner_content li").each(function(i,elem){
+			$(elem).removeClass()
+					.addClass(arr[i]);
+		});
+		index++;
+		if(index>4){
+			index=0;
+		}
+		show();
+	}
+	//上一张
+	$(".btn_left").on("click",function(){
+		btn_left();
+	});
+	//下一张
+	$(".btn_right").click(function(){
+		btn_right();
+	});
+
+  </script>
+
+
+ </body>
+</html>

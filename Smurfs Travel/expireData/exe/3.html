@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		body{
+			text-align:center;
+		}
+		ul{
+			list-style:none;
+			width:684px;
+		}
+		#photo-list{
+			width:684px;/*7*(84+2*2+1*2+9)-9*/
+			height:90px; 
+			margin:50px auto;
+			border:1px solid red;
+			overflow:hidden;
+		}
+		#photo-list li{
+			float:left;
+			padding-right:9px;
+		}
+		#photo-list img{
+			border:1px solid blue;
+			padding:2px;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="photo-list">
+		<ul id="scroll">
+			<li><a href=""><img src="images/p_small_001.jpg" alt=""></a></li>
+			<li><a href=""><img src="images/p_small_002.jpg" alt=""></a</li>
+			<li><a href=""><img src="images/p_small_003.jpg" alt=""></a</li>
+			<li><a href=""><img src="images/p_small_004.jpg" alt=""></a</li>
+			<li><a href=""><img src="images/p_small_005.jpg" alt=""></a</li>
+			<li><a href=""><img src="images/p_small_006.jpg" alt=""></a</li>
+			<li><a href=""><img src="images/p_small_007.jpg" alt=""></a</li>
+		</ul>
+	</div>
+	<script>
+		var id=function(el){
+			return document.getElementById(el);
+		}
+		c=id("photo-list");
+		if(c){
+			var ul=id("scroll");
+			lis=ul.getElementsByTagName("li");
+			width=lis[0].offsetWidth;
+			liCount=lis.length;//获得每个img容器的宽度
+			marquee=function(){
+				c.scrollLeft+=2;
+				if(c.scrollLeft%width<=1){
+					ul.appendChild(ul.getElementsByTagName("li")[0]);
+					c.scrollLeft=0;
+				}
+			}
+			ul.style.width=width*liCount+"px";
+			var timer=setInterval(marquee,1000);
+			c.onmouseover=function(){
+				clearInterval(timer);
+			};
+			c.onmouseout=function(){
+				timer=setInterval(marquee,1000);
+			}
+		}
+	</script>
+</body>
+</html>

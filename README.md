@@ -4,3 +4,7 @@
 
 - prototype版本放在prototype文件夹，采用HTML5、Material design等技术开发
 - Vue版本放在web文件夹，采用vue-cli 2.x和vue-material等技术对prototype版本进行重构
+
+# 蓝精灵旅游网
+
+- 采用原生HTML5、JavaScript、CSS、PHP等技术开发

@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+button, input, textarea {
+    outline: none;
+}
+h2{
+	font-weight: normal;
+}
+ul,p,h1,h2,h3,h4,h5,h6,ol,dl,pre{
+	list-style:none;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	color:#c19b76;
+}
+/*a:hover{
+	text-decoration: underline;
+}*/
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.clear:after{/*主要解决父元素高度问题*/
+	content:"";
+	display:block;
+	clear:both;
+}
+div.main{
+	width:1080px;
+	margin:0 auto;
+/*	text-align: center;*/
+}
+.header{
+/*	height:120px;*/
+	height:auto;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	text-align: center;
+	
+}
+div.header{
+border-bottom:2px solid #ddd;
+}
+.footer{
+	width:100%;
+	height:auto;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	div{
+		width:500px;
+		height:500px;
+		border:1px solid red;
+		perspective:100px;
+		
+	}
+	p{
+		width:200px;
+		height:200px;
+		border:1px solid black;
+		transition: all 0.5s ease;
+		
+	}
+	#d1:hover{
+	transform: translate3d(125px,50px,20px) ;
+/*	transform-origin: 0 50%;*/
+	opacity: 0.7;
+	z-index: 2;
+	background:yellow;
+/*	transition:all .5s linear;*/
+	}
+	#d2{
+		transform: translate3d(220px 0 0) scale(0.81);
+	transform-origin: 0 50%: 
+	opacity: 0.7;
+	z-index: 2;
+	background:pink;
+	}
+  </style>
+ </head>
+ <body>
+	<div>
+		<p id="d1">gerhguherb</p>
+		<p id="d2">deuhfvurh</p>
+	</div>
+ </body>
+</html>

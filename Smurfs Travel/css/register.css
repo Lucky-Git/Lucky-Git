@@ -1,0 +1,7 @@
+.content input{
+	margin-left:20px;
+	padding:5px 10px;
+	width:200px;
+	outline:none;
+	border-radius: 5px;
+}

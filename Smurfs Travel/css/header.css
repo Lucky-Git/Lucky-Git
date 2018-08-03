@@ -1,0 +1,127 @@
+.header>div:first-child{
+	background-color:#374356;
+	height:50px;
+	line-height:50px;
+	color:#fff;
+	width: 100%;
+	text-align: left;
+}
+.header>div:last-child{
+	margin:0 auto;
+	background-color: #fff;
+	height: 50px;
+	line-height: 50px;
+	padding-bottom: 20px;
+	position:relative;
+}
+.header>div:first-child>div{
+	display: inline-block;
+	float:right; 
+	color:#fff;
+	padding-right:20px;
+}
+.header>div:first-child>div>a{
+	display:inline-block;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	border-radius:5px;
+}
+.header>div:first-child>div a.lang{
+	width:40px;	
+	margin:0 10px;
+}
+.header>div:first-child>div a:last-child{
+	width:120px;
+	font-size:14px;
+	background-color:#C19B76;
+}
+.header>div:last-child>ul{
+	width:800px;
+	display:flex;
+	justify-content:space-between;
+	margin:0px auto 40px;
+}
+.header>div:last-child>input{
+	position:absolute;
+	right:20px;
+	top:10px;
+	height:34px;
+	line-height:34px;
+	margin-right:20px;
+	width:250px;
+	border-radius:8px;
+	padding-left: 10px;
+	color:12px;
+	outline:none;
+
+}
+.color-1 {
+    color: #a3c6d3;
+}
+
+.color-2 {
+    color: #ffab4e;
+}
+
+.color-3 {
+    color: #0099ff;
+}
+
+.color-4 {
+    color: #00a5b6;
+}
+
+.color-5 {
+    color: #ff7377;
+}
+
+.color-6 {
+    color: #ae96dc;
+}
+
+.color-7 {
+    color: #7aa4dc;
+}
+
+.color-8 {
+    color: #fe4a5c;
+}
+.header>div:last-child>ul>li>a{
+	color:#777;
+}
+.header>div:last-child>ul>li>.dropdown-menu{
+	display:none;
+}
+.header>div:last-child>ul>li>.show{
+	display:block;
+}                                        
+.header>div:last-child>ul>li>.dropdown-list{
+	width:10000px;
+	background-color:#374356;
+	position:absolute;
+	left:0px;
+	top:50px;
+	height:auto;
+	z-index:1000;
+	text-align:center;
+	margin:0 auto;
+}
+.header>div:last-child>ul>li>.dropdown-menu>.dropdown-item{
+	position:relative;
+	z-index:3;
+	margin-right:100px;
+}
+.header>div:last-child>ul>li>.dropdown-menu>.dropdown-item:first-child{
+	margin-left:500px;
+}
+
+
+
+.header>div:last-child>ul>li>.dropdown-menu-2{
+	background-color:#374356;
+	padding:20px 40px 20px;
+}
+
+

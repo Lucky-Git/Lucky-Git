@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>注册</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="content">
+            <form action="">
+				<p>用户名称
+					<input type="text" placeholder="请输入邮箱或手机号" v-model="uname">
+					<span :class="unameclassObj">{{unameMsg}}</span>
+				</p>
+				<p>登录密码
+					<input type="password" placeholder="请输入密码" v-model="upwd">
+					<span :class="upwdclassObj">{{upwdMsg}}</span>
+				</p>
+				<p>确认密码
+					<input type="password" placeholder="请确认密码" v-model='aupwd' id="aupwd" v-blur="validate">
+					<span :class="aupwdclassObj">{{aupwdMsg}}</span>
+				</p>
+				<p>用户邮箱
+					<input type="email" placeholder="请输入您的邮箱">
+					<span></span>
+				</p>
+				<p>手机号码
+					<input type="text" placeholder="请输入您的手机号">
+					<span></span>
+				</p>
+				<p><input type="button" value="提交注册信息"></p>
+			</form>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/register.js"></script>
+    <script>
+		Vue.directive('blur',{
+			inserted(ele){
+				ele.blur();
+			}
+		})
+    	var vm=new Vue({
+            el:"#app",
+            data:{
+                uname:'',
+                upwd:'',
+                aupwd:'',
+                unameMsg:"用户名长度为3~6之间",
+                upwdMsg:'密码长度为6~12位',
+                aupwdMsg:'密码长度为6~12位',
+                //用字符串来绑定class
+                //classObjabel label-danger',
+                //用object来绑定class
+                unameclassObj:{
+                    label:true,
+                    'label-default':true,//对象属性名不能有-，所以用‘’
+                    'label-success':false,
+                    'label-danger':false
+                },
+				upwdclassObj:{
+                    label:true,
+                    'label-default':true,//对象属性名不能有-，所以用‘’
+                    'label-success':false,
+                    'label-danger':false
+                },
+				aupwdclassObj:{
+                    label:true,
+                    'label-default':true,//对象属性名不能有-，所以用‘’
+                    'label-success':false,
+                    'label-danger':false
+                },
+            },
+			methods:{
+				validate:function(){
+					if(this.aupwd.blur()){
+						if(this.upwd!==this.aupwd){
+							this.aupwdMsg="两次密码不一致";
+						}else{
+							this.aupwdMsg="通过";
+						}
+					}
+				}
+			},
+            watch:{
+                uname(){
+                    if(this.uname.length<6){
+                        this.unameMsg='用户名太短了';
+                        this.unameclassObj['label-default']=false;
+                        this.unameclassObj['label-danger']=true;
+                        this.unameclassObj['label-success']=false;
+                    }else if(this.uname.length>12){
+                        this.unameMsg='用户名太长了';
+                        this.unameclassObj['label-default']=false;
+                        this.unameclassObj['label-danger']=true;
+                        this.unameclassObj['label-success']=false;
+                    }else{
+                        this.unameMsg='用户名长度合法';
+                        this.unameclassObj['label-default']=false;
+                        this.unameclassObj['label-danger']=false;
+                        this.unameclassObj['label-success']=true;
+                    }
+                },
+                upwd(){
+                    if(this.upwd.length<6){
+                        this.upwdMsg='密码太短了';
+                        this.upwdclassObj['label-default']=false;
+                        this.upwdclassObj['label-danger']=true;
+                        this.upwdclassObj['label-success']=false;
+                    }else if(this.upwd.length>12){
+                        this.upwdMsg='密码太长了';
+                        this.upwdclassObj['label-default']=false;
+                        this.upwdclassObj['label-danger']=true;
+                        this.upwdclassObj['label-success']=false;
+                    }else{
+                        this.upwdMsg='密码长度合法';
+                        this.upwdclassObj['label-default']=false;
+                        this.upwdclassObj['label-danger']=false;
+                        this.upwdclassObj['label-success']=true;
+                    }
+                },
+				
+            }
+        })
+    </script>
+</body>
+</html>
