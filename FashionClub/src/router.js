@@ -10,6 +10,8 @@ import ProductList from './views/ProductList'
 import Sales from './views/Sales'
 import Contact from './views/Contact'
 import About from './views/About'
+import Phandbags from './views/Phandbags'
+import Pcosmetic from './views/Pcosmetic'
 
 
 Vue.use(Router)
@@ -23,11 +25,15 @@ export default new Router({
       {path:'/about',component:About},
       {path:'/main',component:Main,children:[
           {path:'',component:Pman},
-          {path:'pwomen',component:Pwoman},
+          {path:'pwoman',component:Pwoman},
           {path:'/main/pman',component:Pman},
-          {path:'/main/sales',component:Sales},
-          {path:'/main/pman',component:Pman}
+          {path:'/main/phandbags',component:Phandbags},
+          {path:'/main/pcosmetic',component:Pcosmetic}
        ]},
+      // {path:'/woman',component:Woman},
+      // {path:'/man',component:Man},
+      // {path:'/kids',component:Kids},
+
       {path:'/*',component:NotFound},
   ]
 })

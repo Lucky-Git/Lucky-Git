@@ -340,17 +340,33 @@ a:hover{
 .product-list{
 	text-align: center;
     margin-top:50px;
+	margin-bottom: 50px;
+}
+.top-products{
+	margin-top:50px;
 }
 .top-products h1{
 	text-align: center;
 }
 .top-products ul{
 	text-align: center;
+	margin-top:30px;
 }
 .top-products ul>li{
 	border:1px solid #000;
 	padding:5px 10px;
-	cursor: pointer;
+	margin-right:20px;
+}
+.top-products ul>li>a{
+	text-decoration: none;
+	color:#333;
+}
+.top-products ul>li>a:hover{
+	text-decoration: none;
+}
+.top-products ul>li:nth-child(2),.top-products ul>li:nth-child(3),
+.top-products ul>li:nth-child(4){
+	opacity:0.5;
 }
 .product-list .pic{
 		border:1px solid #999;
@@ -387,6 +403,7 @@ a:hover{
 	text-align: center;
 	font-size: 40px;
 	margin-top: 10px;
+	margin-bottom: 50px;
 }
 .services .services-border>.fa-money,fa-bus{
 	position: relative;

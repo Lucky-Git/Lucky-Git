@@ -156,6 +156,16 @@ $(()=>{
                 "transform": "rotateY(360deg) scale(0.5,0.5)"
             })
         }
-    )
+    );
+    $('.top-products ul').on("click","li",function(){
+        var $li=$(this);
+        if($li.css("opacity",0.5)){
+            $li.css("opacity",1).siblings('li').css("opacity",0.5);
+        }else if($li.css("opacity",1)){
+            $li.css("opacity",1).siblings('li').css("opacity",0.5);
+        }
+        
+    })
+
 
 })
