@@ -15,10 +15,10 @@
                 <div>
                     <h3><i>—</i>Brand</h3>
                     <ul>
-                        <li><span ></span><a href="">Adidas</a></li>
+                        <li><span></span><a href="">Adidas</a></li>
                         <li><span></span><a href="">Fila</a></li>
-                        <li><span ></span><a href="">Nike</a></li>
-                        <li><span ></span><a href="">Osiris</a></li>
+                        <li><span></span><a href="">Nike</a></li>
+                        <li><span></span><a href="">Osiris</a></li>
                     </ul>
                 </div>
                 <div>
@@ -236,12 +236,13 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},
@@ -251,7 +252,7 @@
             var $user_id = this.$cookies.isKey('user_id');
             var $access_token = this.$cookies.isKey('access_token');
             if (!$user_id || !$access_token) {
-                self.$router.push({path: '/login'});
+                self.$router.push({path: '/login', query: {from: 'shoes'}});
                 return 0;
             }
         }

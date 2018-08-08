@@ -150,14 +150,6 @@
     </div>
 </template>
 <script>
-    import '../assets/css/bootstrap.css'
-    import '../assets/css/flexslider.css'
-    import '../assets/css/font-awesome.min.css'
-    import '../assets/css/main.css'
-    import '../assets/js/jquery'
-    import '../assets/js/bootstrap'
-    import '../assets/js/main'
-
     import Header from '../components/Header'
     import Footer from '../components/Footer'
 

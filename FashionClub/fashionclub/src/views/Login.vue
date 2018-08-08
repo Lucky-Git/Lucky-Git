@@ -43,7 +43,23 @@
                             message: '登录成功',
                             type: 'success'
                         });
-                        if (self.$route.query['from'] === 'women') {
+                        if (self.$route.query['from'] === 'about') {
+                            self.$router.push({path: '/about'})
+                        } else if (self.$route.query['from'] === 'contact') {
+                            self.$router.push({path: '/contact'})
+                        } else if (self.$route.query['from'] === 'handbags') {
+                            self.$router.push({path: '/handbags'})
+                        } else if (self.$route.query['from'] === 'jewellery') {
+                            self.$router.push({path: '/jewellery'})
+                        } else if (self.$route.query['from'] === 'productlist') {
+                            self.$router.push({path: '/productlist'})
+                        } else if (self.$route.query['from'] === 'sales') {
+                            self.$router.push({path: '/sales'})
+                        } else if (self.$route.query['from'] === 'shoes') {
+                            self.$router.push({path: '/shoes'})
+                        } else if (self.$route.query['from'] === 'watches') {
+                            self.$router.push({path: '/watches'})
+                        } else if (self.$route.query['from'] === 'women') {
                             self.$router.push({path: '/women'})
                         } else {
                             self.$router.push({path: '/main'})

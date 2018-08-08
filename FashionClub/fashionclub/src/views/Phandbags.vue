@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Header></Header>
         <div class="product-list handbags">
             <div class="row">
                 <div class="col-xs-6 col-sm-3">
@@ -170,21 +169,15 @@
                 </div>
             </div>
         </div>
-        <Footer></Footer>
     </div>
 </template>
 
 <script>
-    import Header from '../components/Header'
-    import Footer from '../components/Footer'
-
     export default {
         data() {
             return {}
         },
-        components: {
-            Header, Footer
-        },
+        components: {},
         methods: {},
         computed: {},
         watch: {},
