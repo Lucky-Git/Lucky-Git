@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap1.jpg" alt="">
+                                <img src="../assets/images/wap/wap1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap2.jpg" alt="">
+                                <img src="../assets/images/wap/wap2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap3.jpg" alt="">
+                                <img src="../assets/images/wap/wap3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -108,7 +108,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap4.jpg" alt="">
+                                <img src="../assets/images/wap/wap4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -128,7 +128,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap5.jpg" alt="">
+                                <img src="../assets/images/wap/wap5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap6.jpg" alt="">
+                                <img src="../assets/images/wap/wap6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -170,7 +170,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap7.jpg" alt="">
+                                <img src="../assets/images/wap/wap7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -190,7 +190,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap9.jpg" alt="">
+                                <img src="../assets/images/wap/wap9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -210,7 +210,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//wap8.jpg" alt="">
+                                <img src="../assets/images/wap/wap8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -238,12 +238,13 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},

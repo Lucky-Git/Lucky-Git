@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp1.jpg" alt="">
+                                <img src="../assets/images/wp/wp1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp2.jpg" alt="">
+                                <img src="../assets/images/wp/wp2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -88,7 +88,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp3.jpg" alt="">
+                                <img src="../assets/images/wp/wp3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -110,7 +110,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp4.jpg" alt="">
+                                <img src="../assets/images/wp/wp4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp5.jpg" alt="">
+                                <img src="../assets/images/wp/wp5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp6.jpg" alt="">
+                                <img src="../assets/images/wp/wp6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -172,7 +172,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp7.jpg" alt="">
+                                <img src="../assets/images/wp/wp7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -192,7 +192,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp9.jpg" alt="">
+                                <img src="../assets/images/wp/wp9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images/wp8.jpg" alt="">
+                                <img src="../assets/images/wp/wp8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
