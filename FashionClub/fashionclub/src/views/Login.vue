@@ -2,7 +2,7 @@
     <div>
         <Header></Header>
         <div class="container">
-            <form action="" method="post" class="login">
+            <form class="login">
                 <h1>Login</h1>
                 <p>
                     <i class="fa fa-envelope"></i>
@@ -23,41 +23,53 @@
     </div>
 </template>
 <script>
-
-    //引入&打包全局的静态资源文件
     import Header from '../components/Header'
     import Footer from '../components/Footer'
-    //declare var $;
+
     export default {
-        data(){
+        data() {
             return {
-                email:'',
-                password:''
+                email: '',
+                password: ''
             }
         },
-        components:{
-            Header,Footer
+        components: {
+            Header, Footer
         },
-        methods:{
-            login(){
-                if(this.email!=''&&this.password!=''){
-                   // $sdjak=this.$cookies.get('access-token');
-                    this.$http.post('/user/login',{
-                        account:this.email,
-                        password:this.password,
-                        //access_token:$sdjak
-                    }).then((res)=>{
-                        console.log(res);
-
-                    }).catch((err)=>{
-                        console.log(err);
+        methods: {
+            login() {
+                var self = this;
+                if (this.email !== '' && this.password !== '') {
+                    this.$http.post('/user/login', {
+                        account: this.email,
+                        password: this.password,
+                    }).then((res) => {
+                        self.$cookies.set('user_id', res.data['message']['id'], 60 * 60 * 24);
+                        self.$cookies.set('access_token', res.data['access_token'], 60 * 60 * 24);
+                        this.$message({
+                            message: '登录成功',
+                            type: 'success'
+                        });
+                        self.$router.push({path: '/main'})
+                    }).catch((err) => {
+                        self.$message.error('邮箱或密码错误');
                     })
+                }
+                else {
+                    if (this.email === '') {
+                        self.$message.error('请输入邮箱');
+                    }
+                    else if (this.password === '') {
+                        self.$message.error('请输入密码');
+                    }
                 }
             }
         },
-        computed:{},
-        watch:{},
-        mounted(){}
+        computed: {},
+        watch: {},
+        mounted() {
+        }
     }
 </script>
-<style scoped></style>
+<style scoped>
+</style>

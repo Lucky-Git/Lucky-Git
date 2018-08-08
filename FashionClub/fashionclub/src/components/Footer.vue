@@ -5,33 +5,19 @@
                 <h1>Top Brands</h1>
                 <div class="imgs">
                     <ul class="row list-inline ulImgs">
-                        <li ><img src="../assets/images/4.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/5.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/6.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/7.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/8.jpg" class="img-responsive"></li>
-                        <li ><img src="../assets/images/4.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/5.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/6.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/7.png" class="img-responsive"></li>
-                        <li ><img src="../assets/images/8.jpg" class="img-responsive"></li>
+                        <li><img src="../assets/images/4.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/5.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/6.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/7.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/8.jpg" class="img-responsive"></li>
+                        <li><img src="../assets/images/4.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/5.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/6.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/7.png" class="img-responsive"></li>
+                        <li><img src="../assets/images/8.jpg" class="img-responsive"></li>
                     </ul>
                     <div class="nav-arrow nav-left glyphicon glyphicon-chevron-left"></div>
                     <div class="nav-arrow nav-right glyphicon glyphicon-chevron-right"></div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-middle">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                        <h1>Newsletter</h1>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <input type="email" placeholder="Email">
-                        <button>Subscribe</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -44,7 +30,7 @@
                             <h3>FASHION <span>CLUB</span></h3>
                         </a>
                         <ul>
-                            <li>1234k Avenue, 4th,block </li>
+                            <li>1234k Avenue, 4th,block</li>
                             <li>New York City.</li>
                             <li><a href="#">info@example.com</a></li>
                             <li class="share">
@@ -76,17 +62,22 @@
                     <div class="col-md-3 col-sm-6">
                         <h3>My Account</h3>
                         <ul>
-                            <li><router-link to="/login">Login</router-link></li>
-                            <li><router-link to="/register">Register</router-link></li>
-                            <li><router-link to="/main">Recommended</router-link></li>
-                            <li><router-link to="/main">Payments</router-link></li>
+                            <li>
+                                <router-link to="/login">Login</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/register">Register</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/main">Recommended</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/main">Payments</router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="copy">
-            Copyright © 2016.Company name All rights reserved.More Templates 模板之家 - Collect from 网页模板s
         </div>
     </div>
 </template>
@@ -98,17 +89,18 @@
     import '../assets/js/jquery'
     import '../assets/js/bootstrap'
     import '../assets/js/main'
-    export default {
-        data(){
-            return {
 
-            }
+    export default {
+        data() {
+            return {}
         },
-        components:{},
-        methods:{},
-        computed:{},
-        watch:{},
-        mounted(){}
+        components: {},
+        methods: {},
+        computed: {},
+        watch: {},
+        mounted() {
+        }
     }
 </script>
-<style scoped></style>
+<style scoped>
+</style>
