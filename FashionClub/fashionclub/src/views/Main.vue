@@ -18,7 +18,7 @@
                         <h2>WELCOME TO</h2>
                         <h3>FASHION <span>CLUB</span></h3>
                         <p>Suspendisse sed tellus id libero pretium interdum. Suspendisse potenti. Quisque consectetur elit sit amet vehicula tristique.</p>
-                        <a href="about.html">Read More</a>
+                        <router-link to="/about">Read More</router-link>
                     </div>
                     <img src="../assets/images/img/banner2.jpg" alt="First slide">
                 </div>
@@ -49,43 +49,43 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-xs-12 sale-left">
-                        <a href="women.html">
+                        <router-link to="/woman">
                             <div class="sale-left-content">
                                 <div>
                                     <h3>SALE</h3>
                                     <h4>upto   <span>75%</span></h4>
                                 </div>
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                     <div class="col-md-4 col-xs-6 sale-center">
-                        <a href="shoes.html">
+                        <router-link to="/shoes">
                             <div class="sale-center-top">
                                 <h3>SALE</h3>
                                 <h4>upto   <span>55%</span></h4>
                             </div>
-                        </a>
-                        <a href="jewellery.html">
+                        </router-link>
+                        <router-link to="/jewellery">
                             <div class="sale-center-bottom">
                                 <h3>SALE</h3>
                                 <h4>upto   <span>65%</span></h4>
                             </div>
-                        </a>
+                        </router-link>
 
                     </div>
                     <div class="col-md-3 col-xs-6 sale-right">
-                        <a href="watches.html">
+                        <router-link to="/watches">
                             <div class="sale-right-top">
                                 <h3>SALE</h3>
                                 <h4>upto   <span>50%</span></h4>
                             </div>
-                        </a>
-                        <a href="handbags.html">
+                        </router-link>
+                        <router-link to="/handbags">
                             <div class="sale-right-bottom">
                                 <h3>SALE</h3>
                                 <h4>upto   <span>60%</span></h4>
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
             </div>
@@ -180,6 +180,7 @@
     import '../assets/js/jquery'
     import '../assets/js/bootstrap'
     import '../assets/js/main'
+
     import Header from '../components/Header'
     import Footer from '../components/Footer'
     export default{//导出一个组件

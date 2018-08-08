@@ -76,10 +76,10 @@
                     <div class="col-md-3 col-sm-6">
                         <h3>My Account</h3>
                         <ul>
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Register</a></li>
-                            <li><a href="">Recommended</a></li>
-                            <li><a href="">Payments</a></li>
+                            <li><router-link to="/login">Login</router-link></li>
+                            <li><router-link to="/register">Register</router-link></li>
+                            <li><router-link to="/main">Recommended</router-link></li>
+                            <li><router-link to="/main">Payments</router-link></li>
                         </ul>
                     </div>
                 </div>

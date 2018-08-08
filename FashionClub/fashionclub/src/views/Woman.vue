@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header></Header>
         <div class="bgImg"></div>
         <div class="container women">
             <div class="col-md-4 content-left">
@@ -34,7 +35,7 @@
                     </ul>
                 </div>
                 <div class="offer">
-                    <img src="images/offer.jpg" class="img-responsive">
+                    <img src="../assets/images/offer.jpg" class="img-responsive">
                     <div class="offer-text">
                         <p>Upto</p>
                         <p>40%</p>
@@ -47,7 +48,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp1.jpg" alt="">
+                                <img src="../assets/images/wp1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -67,7 +68,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp2.jpg" alt="">
+                                <img src="../assets/images/wp2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -87,7 +88,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp3.jpg" alt="">
+                                <img src="../assets/images/wp3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -109,7 +110,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp4.jpg" alt="">
+                                <img src="../assets/images/wp4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -129,7 +130,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp5.jpg" alt="">
+                                <img src="../assets/images/wp5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -149,7 +150,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp6.jpg" alt="">
+                                <img src="../assets/images/wp6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -171,7 +172,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp7.jpg" alt="">
+                                <img src="../assets/images/wp7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -191,7 +192,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp9.jpg" alt="">
+                                <img src="../assets/images/wp9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -211,7 +212,7 @@
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="pic">
-                                <img src="images/wp8.jpg" alt="">
+                                <img src="../assets/images/wp8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -233,14 +234,19 @@
                 </div>
             </div>
         </div>
+        <Footer></Footer>
     </div>
 </template>
 <script>
+    import Header from '../components/Header'
+    import Footer from '../components/Footer'
     export default {
         data() {
             return {}
         },
-        components: {},
+        components: {
+            Header,Footer
+        },
         methods: {},
         computed: {},
         watch: {},

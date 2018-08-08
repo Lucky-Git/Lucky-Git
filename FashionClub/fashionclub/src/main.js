@@ -1,23 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueCookies from 'vue-cookies'
 import axios from 'axios'
-import VueCookie from 'vue-cookies'
-
-axios.defaults.baseURL = 'http://biocenter.shu.edu.cn/shop/backend/web/index.php';
-// axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.baseURL='http://biocenter.shu.edu.cn/shop/backend/web/index.php'
+axios.defaults.headers.post['Content-Type']='application/x-www-form-urlencoded'
 
 
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-
-Vue.use(ElementUI);
-Vue.use(VueCookie)
+Vue.use(VueCookies)
 
 Vue.config.productionTip = false
-Vue.prototype.$http = axios
-
+Vue.prototype.$http=axios
 new Vue({
-    router,
-    render: h => h(App)
+  router,
+  render: h => h(App)
 }).$mount('#app')
