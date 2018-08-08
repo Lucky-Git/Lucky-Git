@@ -5,17 +5,17 @@ import axios from 'axios'
 import VueCookie from 'vue-cookies'
 
 axios.defaults.baseURL = 'http://biocenter.shu.edu.cn/shop/backend/web/index.php';
-// axios.defaults.headers.post['Content-Type'] = 'application/json';
-
+axios.defaults.headers.post['Content-Type'] = 'application/json';
+Vue.prototype.$http = axios;
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
+
 Vue.use(VueCookie)
 
 Vue.config.productionTip = false
-Vue.prototype.$http = axios
 
 new Vue({
     router,
