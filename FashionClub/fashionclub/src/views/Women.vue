@@ -35,7 +35,7 @@
                     </ul>
                 </div>
                 <div class="offer">
-                    <img src="../assets/images/offer.jpg" class="img-responsive">
+                    <img src="../assets/images/offer/offer1.jpg" class="img-responsive">
                     <div class="offer-text">
                         <p>Upto</p>
                         <p>40%</p>

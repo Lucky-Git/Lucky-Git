@@ -35,7 +35,7 @@
                     </ul>
                 </div>
                 <div class="offer">
-                    <img src="../assets/images//offer4.jpg" class="img-responsive">
+                    <img src="../assets/images/offer/offer4.jpg" class="img-responsive">
                     <div class="offer-text">
                         <p>Upto</p>
                         <p>40%</p>
@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp1.jpg" alt="">
+                                <img src="../assets/images/hp/hp1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp2.jpg" alt="">
+                                <img src="../assets/images/hp/hp2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -88,7 +88,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp3.jpg" alt="">
+                                <img src="../assets/images/hp/hp3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -110,7 +110,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp4.jpg" alt="">
+                                <img src="../assets/images/hp/hp4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp5.jpg" alt="">
+                                <img src="../assets/images/hp/hp5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp6.jpg" alt="">
+                                <img src="../assets/images/hp/hp6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -172,7 +172,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp7.jpg" alt="">
+                                <img src="../assets/images/hp/hp7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -192,7 +192,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp9.jpg" alt="">
+                                <img src="../assets/images/hp/hp9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//hp8.jpg" alt="">
+                                <img src="../assets/images/hp/hp8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
