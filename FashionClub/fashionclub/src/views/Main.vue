@@ -161,7 +161,7 @@
     import Header from '../components/Header'
     import Footer from '../components/Footer'
 
-    export default {//导出一个组件
+    export default {
         data() {
             return {
                 carousel_img: []
