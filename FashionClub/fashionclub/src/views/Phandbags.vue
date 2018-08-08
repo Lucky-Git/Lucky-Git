@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header></Header>
         <div class="product-list handbags">
             <div class="row">
                 <div class="col-xs-6 col-sm-3">
@@ -10,7 +11,6 @@
                             Add to cart
                         </div>
                     </div>
-
                     <div class="intro">
                         <p>
                             <span class="fa fa-star yellow-star"></span>
@@ -170,14 +170,21 @@
                 </div>
             </div>
         </div>
+        <Footer></Footer>
     </div>
 </template>
+
 <script>
+    import Header from '../components/Header'
+    import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
-        components: {},
+        components: {
+            Header, Footer
+        },
         methods: {},
         computed: {},
         watch: {},

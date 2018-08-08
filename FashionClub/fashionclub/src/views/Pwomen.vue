@@ -174,16 +174,15 @@
 </template>
 <script>
     export default {
-        data(){
-            return {
-
-            }
+        data() {
+            return {}
         },
-        components:{},
-        methods:{},
-        computed:{},
-        watch:{},
-        mounted(){}
+        components: {},
+        methods: {},
+        computed: {},
+        watch: {},
+        mounted() {
+        }
     }
 </script>
 <style scoped></style>

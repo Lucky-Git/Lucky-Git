@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-3 logo">
                         <a href="header.html">
-                            <img src="../assets/images/logo2.png" alt="">
+                            <img src="../assets/images/logo/logo.png" alt="">
                             <h3>FASHION <span>CLUB</span></h3>
                         </a>
                         <ul>
@@ -82,14 +82,6 @@
     </div>
 </template>
 <script>
-    import '../assets/css/bootstrap.css'
-    import '../assets/css/flexslider.css'
-    import '../assets/css/font-awesome.min.css'
-    import '../assets/css/main.css'
-    import '../assets/js/jquery'
-    import '../assets/js/bootstrap'
-    import '../assets/js/main'
-
     export default {
         data() {
             return {}

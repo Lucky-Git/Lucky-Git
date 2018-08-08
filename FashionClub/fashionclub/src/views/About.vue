@@ -7,7 +7,9 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h2>Our latest collection</h2>
-                        <p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat officia.</p>
+                        <p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat
+                            officia.</p>
                         <div class="about-slide">
                             <ul class="list-inline">
                                 <li><img src="../assets/images/a1.jpg" class="img-responsive"></li>
@@ -130,17 +132,25 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},
         watch: {},
         mounted() {
+            var self = this;
+            var $user_id = this.$cookies.isKey('user_id');
+            var $access_token = this.$cookies.isKey('access_token');
+            if (!$user_id || !$access_token) {
+                self.$router.push({path: '/login'});
+                return 0;
+            }
         }
     }
 </script>
