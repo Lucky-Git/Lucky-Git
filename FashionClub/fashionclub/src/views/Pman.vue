@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/cap1.jpg" alt="">
+                        <img src="../assets/images/cap/cap1.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
