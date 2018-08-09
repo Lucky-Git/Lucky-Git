@@ -5,18 +5,14 @@
                 <div class="container">
                     <div class="col-md-6 logo">
                         <router-link to="/main">
-                            <img src="../assets/images/logo2.png" alt="">
+                            <img src="../assets/images/logo/logo.png">
                             <h1>FASHION <span>CLUB</span></h1>
                         </router-link>
                     </div>
                     <div class="col-md-6 phone">
                         <ul class="list-inline">
-                            <li>
-                                <span class="glyphicon glyphicon-earphone"></span>
-                            </li>
-                            <li>
-                                +18045403380
-                            </li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
@@ -49,7 +45,7 @@
                                                     <div class="col-sm-4">
                                                         <ul>
                                                             <li>
-                                                                <router-link to="/woman">
+                                                                <router-link to="/women">
                                                                     <i class="glyphicon glyphicon-chevron-right"></i>
                                                                     Women's Clothing
                                                                 </router-link>
@@ -102,8 +98,10 @@
                                                         </ul>
                                                     </div>
                                                     <div class="col-sm-4">
-                                                        <router-link to="/women"><img src="../assets/images/menu1.jpg"
-                                                                                      class="img-responsive" alt="">
+                                                        <router-link to="/women">
+                                                            <img
+                                                                    src="../assets/images/header/menu1.jpg"
+                                                                    class="img-responsive">
                                                         </router-link>
                                                     </div>
                                                 </div>
@@ -169,12 +167,13 @@
                                                         </ul>
                                                     </div>
                                                     <div class="col-sm-4">
-                                                        <router-link to="/jewellery"><img
-                                                                src="../assets/images/menu2.jpg" class="img-responsive"
-                                                                alt=""></router-link>
+                                                        <router-link to="/jewellery">
+                                                            <img
+                                                                    src="../assets/images/header/menu2.jpg"
+                                                                    class="img-responsive">
+                                                        </router-link>
                                                     </div>
                                                 </div>
-
                                             </ul>
                                         </li>
                                         <li>
@@ -191,13 +190,6 @@
                                 <button class="glyphicon glyphicon-search"></button>
                             </div>
                             <div class="col-md-1 col-xs-6">
-                                <div class="cart">
-                                    <form action="" method="post">
-                                        <input type="hidden">
-                                        <button class="glyphicon glyphicon-shopping-cart">
-                                        </button>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

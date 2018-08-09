@@ -3,60 +3,54 @@
         <div class="footer-top">
             <div class="container">
                 <h1>Top Brands</h1>
-                <div class="imgs">
-                    <ul class="row list-inline ulImgs">
-                        <li><img src="../assets/images/4.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/5.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/6.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/7.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/8.jpg" class="img-responsive"></li>
-                        <li><img src="../assets/images/4.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/5.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/6.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/7.png" class="img-responsive"></li>
-                        <li><img src="../assets/images/8.jpg" class="img-responsive"></li>
-                    </ul>
-                    <div class="nav-arrow nav-left glyphicon glyphicon-chevron-left"></div>
-                    <div class="nav-arrow nav-right glyphicon glyphicon-chevron-right"></div>
-                </div>
+                <swiper :options="swiperOption">
+                    <swiper-slide v-for="item in brand_img"><img
+                            v-bind:src="'http://biocenter.shu.edu.cn/shop/assets/'+item.img" width="200px">
+                    </swiper-slide>
+                </swiper>
             </div>
         </div>
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 logo">
-                        <a href="header.html">
-                            <img src="../assets/images/logo2.png" alt="">
+                        <router-link to="/main">
+                            <img src="../assets/images/logo/logo.png">
                             <h3>FASHION <span>CLUB</span></h3>
-                        </a>
-                        <ul>
-                            <li>1234k Avenue, 4th,block</li>
-                            <li>New York City.</li>
-                            <li><a href="#">info@example.com</a></li>
-                            <li class="share">
-                                <a href=""><i class="fa fa-twitter"></i></a>
-                                <a href=""><i class="fa fa-dribbble"></i></a>
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                        </router-link>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <h3>Information</h3>
                         <ul>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">Web Icons</a></li>
-                            <li><a href="">Typography</a></li>
-                            <li><a href="">FAQ's</a></li>
+                            <li>
+                                <router-link to="/contact">Contact Us</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/web">Web Icons</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/typography">Typography</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/faq">FAQ's</router-link>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h3>Shop</h3>
                         <ul>
-                            <li><a href="">Jewellery</a></li>
-                            <li><a href="">Cosmetics</a></li>
-                            <li><a href="">Shoes</a></li>
-                            <li><a href="">Deos</a></li>
+                            <li>
+                                <router-link to="/jewellery">Jewellery</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/cosmetics">Cosmetics</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/shoes">Shoes</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/deos">Deos</router-link>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -69,10 +63,10 @@
                                 <router-link to="/register">Register</router-link>
                             </li>
                             <li>
-                                <router-link to="/main">Recommended</router-link>
+                                <router-link to="/recommended">Recommended</router-link>
                             </li>
                             <li>
-                                <router-link to="/main">Payments</router-link>
+                                <router-link to="/payments">Payments</router-link>
                             </li>
                         </ul>
                     </div>
@@ -82,23 +76,31 @@
     </div>
 </template>
 <script>
-    import '../assets/css/bootstrap.css'
-    import '../assets/css/flexslider.css'
-    import '../assets/css/font-awesome.min.css'
-    import '../assets/css/main.css'
-    import '../assets/js/jquery'
-    import '../assets/js/bootstrap'
-    import '../assets/js/main'
-
     export default {
         data() {
-            return {}
+            return {
+                brand_img: [],
+                swiperOption: {
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                    autoplay: true,
+                    loop: true
+                }
+            }
         },
         components: {},
         methods: {},
         computed: {},
         watch: {},
         mounted() {
+            var self = this;
+            this.$http.get('/brand', {
+                params: {},
+            }).then(function (response) {
+                self.brand_img = response.data
+            }).catch(function (error) {
+                console.log(error);
+            });
         }
     }
 </script>

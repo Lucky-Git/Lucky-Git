@@ -5,8 +5,8 @@ import Register from './views/Register'
 import Main from './views/Main'
 import NotFound from './views/NotFound'
 import Pman from './views/Pman'
-import Pwoman from './views/Pwoman'
-import Woman from './views/Woman'
+import Pwomen from './views/Pwomen'
+import Women from './views/Women'
 import Shoes from './views/Shoes'
 import Contact from './views/Contact'
 import About from './views/About'
@@ -29,13 +29,13 @@ export default new Router({
         {
             path: '/main', component: Main, children: [
                 {path: '/', component: Pman},
-                {path: 'pwoman', component: Pwoman},
+                {path: 'pwomen', component: Pwomen},
                 {path: '/main/pman', component: Pman},
                 {path: '/main/phandbags', component: Phandbags},
                 {path: '/main/pcosmetic', component: Pcosmetic}
             ]
         },
-        {path: '/woman', component: Woman},
+        {path: '/women', component: Women},
         {path: '/shoes', component: Shoes},
         {path: '/jewellery', component: Jewellery},
         {path: '/watches', component: Watches},

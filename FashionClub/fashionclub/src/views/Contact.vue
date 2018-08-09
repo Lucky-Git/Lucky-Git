@@ -41,17 +41,25 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},
         watch: {},
         mounted() {
+            var self = this;
+            var $user_id = this.$cookies.isKey('user_id');
+            var $access_token = this.$cookies.isKey('access_token');
+            if (!$user_id || !$access_token) {
+                self.$router.push({path: '/login', query: {from: 'contact'}});
+                return 0;
+            }
         }
     }
 </script>

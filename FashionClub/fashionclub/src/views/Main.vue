@@ -118,19 +118,19 @@
                     <div class="col-xs-6">
                         <div class="person">
                             <div class="person-detail">
-                                <img src="../assets/images/c1.png" class="img-responsive">
+                                <img src="../assets/images/c/c1.png" class="img-responsive">
                                 <p>Nam elementum magna id nibh pretium suscipit varius tortor. Phasellus in lorem sed
                                     massa consectetur fermentum. Praesent pellentesque sapien euismod.</p>
                                 <h4># Andrew</h4>
                             </div>
                             <div class="person-detail">
-                                <img src="../assets/images/c2.png" class="img-responsive">
+                                <img src="../assets/images/c/c2.png" class="img-responsive">
                                 <p>Morbi semper, risus dignissim sagittis iaculis, diam est ornare neque, accumsan risus
                                     tortor at est. Vivamus auctor quis lacus sed interdum celerisque.</p>
                                 <h4># Lucy</h4>
                             </div>
                             <div class="person-detail">
-                                <img src="../assets/images/c3.png" class="img-responsive">
+                                <img src="../assets/images/c/c3.png" class="img-responsive">
                                 <p>Fusce non cursus quam, in hendrerit sem. Nam nunc dui, venenatis vitae porta sed,
                                     sagittis id nisl. Pellentesque celerisque eget ullamcorper vehicula.</p>
                                 <h4># Martina</h4>
@@ -150,14 +150,6 @@
     </div>
 </template>
 <script>
-    import '../assets/css/bootstrap.css'
-    import '../assets/css/flexslider.css'
-    import '../assets/css/font-awesome.min.css'
-    import '../assets/css/main.css'
-    import '../assets/js/jquery'
-    import '../assets/js/bootstrap'
-    import '../assets/js/main'
-
     import Header from '../components/Header'
     import Footer from '../components/Footer'
 

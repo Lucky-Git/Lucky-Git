@@ -15,10 +15,10 @@
                 <div>
                     <h3><i>—</i>Brand</h3>
                     <ul>
-                        <li><span ></span><a href="">Adidas</a></li>
+                        <li><span></span><a href="">Adidas</a></li>
                         <li><span></span><a href="">Fila</a></li>
-                        <li><span ></span><a href="">Nike</a></li>
-                        <li><span ></span><a href="">Osiris</a></li>
+                        <li><span></span><a href="">Nike</a></li>
+                        <li><span></span><a href="">Osiris</a></li>
                     </ul>
                 </div>
                 <div>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
                 <div class="offer">
-                    <img src="../assets/images//offer11.jpg" class="img-responsive">
+                    <img src="../assets/images/offer/offer11.jpg" class="img-responsive">
                     <div class="offer-text">
                         <p>Upto</p>
                         <p>40%</p>
@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp1.jpg" alt="">
+                                <img src="../assets/images/shp/shp1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp2.jpg" alt="">
+                                <img src="../assets/images/shp/shp2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -84,7 +84,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp3.jpg" alt="">
+                                <img src="../assets/images/shp/shp3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -106,7 +106,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp4.jpg" alt="">
+                                <img src="../assets/images/shp/shp4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp5.jpg" alt="">
+                                <img src="../assets/images/shp/shp5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -146,7 +146,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp6.jpg" alt="">
+                                <img src="../assets/images/shp/shp6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -168,7 +168,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp7.jpg" alt="">
+                                <img src="../assets/images/shp/shp7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp9.jpg" alt="">
+                                <img src="../assets/images/shp/shp9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -208,7 +208,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//shp8.jpg" alt="">
+                                <img src="../assets/images/shp/shp8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -236,17 +236,25 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},
         watch: {},
         mounted() {
+            var self = this;
+            var $user_id = this.$cookies.isKey('user_id');
+            var $access_token = this.$cookies.isKey('access_token');
+            if (!$user_id || !$access_token) {
+                self.$router.push({path: '/login', query: {from: 'shoes'}});
+                return 0;
+            }
         }
     }
 </script>

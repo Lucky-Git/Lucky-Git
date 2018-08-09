@@ -4,13 +4,12 @@
             <div class="row">
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/tp9.jpg" alt="">
+                        <img src="../assets/images/tp/tp9.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
                         </div>
                     </div>
-
                     <div class="intro">
                         <p>
                             <span class="fa fa-star yellow-star"></span>
@@ -25,7 +24,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/tp10.jpg" alt="">
+                        <img src="../assets/images/tp/tp10.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -45,7 +44,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/tp11.jpg" alt="">
+                        <img src="../assets/images/tp/tp11.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -65,7 +64,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/tp12.jpg" alt="">
+                        <img src="../assets/images/tp/tp12.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -90,7 +89,7 @@
             <div class="row">
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/hp9.jpg" alt="">
+                        <img src="../assets/images/hp/hp9.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -110,7 +109,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/hp8.jpg" alt="">
+                        <img src="../assets/images/hp/hp8.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -130,7 +129,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/hp7.jpg" alt="">
+                        <img src="../assets/images/hp/hp7.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -150,7 +149,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <div class="pic">
-                        <img src="../assets/images/hp3.jpg" alt="">
+                        <img src="../assets/images/hp/hp3.jpg" alt="">
                         <div class="mask">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
                             Add to cart
@@ -172,6 +171,7 @@
         </div>
     </div>
 </template>
+
 <script>
     export default {
         data() {

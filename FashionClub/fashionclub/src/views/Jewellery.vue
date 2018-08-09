@@ -33,7 +33,7 @@
                     </ul>
                 </div>
                 <div class="offer">
-                    <img src="../assets/images//offer6.jpg" class="img-responsive">
+                    <img src="../assets/images/offer/offer6.jpg" class="img-responsive">
                     <div class="offer-text">
                         <p>Upto</p>
                         <p>40%</p>
@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp1.jpg" alt="">
+                                <img src="../assets/images/jp/jp1.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp2.jpg" alt="">
+                                <img src="../assets/images/jp/jp2.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp3.jpg" alt="">
+                                <img src="../assets/images/jp/jp3.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -108,7 +108,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp4.jpg" alt="">
+                                <img src="../assets/images/jp/jp4.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -128,7 +128,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp5.jpg" alt="">
+                                <img src="../assets/images/jp/jp5.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -148,7 +148,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp6.jpg" alt="">
+                                <img src="../assets/images/jp/jp6.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -170,7 +170,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp7.jpg" alt="">
+                                <img src="../assets/images/jp/jp7.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -190,7 +190,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp9.jpg" alt="">
+                                <img src="../assets/images/jp/jp9.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -210,7 +210,7 @@
                         </div>
                         <div class="col-md-4 col-xs-12">
                             <div class="pic">
-                                <img src="../assets/images//jp8.jpg" alt="">
+                                <img src="../assets/images/jp/jp8.jpg" alt="">
                                 <div class="mask">
                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                     Add to cart
@@ -238,17 +238,25 @@
 <script>
     import Header from '../components/Header'
     import Footer from '../components/Footer'
+
     export default {
         data() {
             return {}
         },
         components: {
-            Header,Footer
+            Header, Footer
         },
         methods: {},
         computed: {},
         watch: {},
         mounted() {
+            var self = this;
+            var $user_id = this.$cookies.isKey('user_id');
+            var $access_token = this.$cookies.isKey('access_token');
+            if (!$user_id || !$access_token) {
+                self.$router.push({path: '/login', query: {from: 'jewellery'}});
+                return 0;
+            }
         }
     }
 </script>

@@ -1,37 +1,30 @@
 <template>
     <div>
-        <Header></Header>
-        <div>
-            <div class="container">
-                <form class="login">
-                    <h1>Register</h1>
-                    <p>
-                        <i class="fa fa-user"></i>
-                        <input v-model="username" type="text" placeholder="Username">
-                    </p>
-                    <p>
-                        <i class="fa fa-envelope"></i>
-                        <input v-model="email" type="email" placeholder="Email">
-                    </p>
-                    <p>
-                        <i class="fa fa-lock"></i>
-                        <input v-model="password" type="password" placeholder="Password">
-                    </p>
-                    <p>
-                        <i class="fa fa-lock"></i>
-                        <input v-model="confirmPassword" type="password" placeholder="Confirm Password">
-                    </p>
-                    <input @click="register" type="button" value="Register">
-                </form>
-            </div>
+        <div class="container">
+            <form class="login">
+                <h1>Register</h1>
+                <p>
+                    <i class="fa fa-user"></i>
+                    <input v-model="username" type="text" placeholder="Username">
+                </p>
+                <p>
+                    <i class="fa fa-envelope"></i>
+                    <input v-model="email" type="email" placeholder="Email">
+                </p>
+                <p>
+                    <i class="fa fa-lock"></i>
+                    <input v-model="password" type="password" placeholder="Password">
+                </p>
+                <p>
+                    <i class="fa fa-lock"></i>
+                    <input v-model="confirmPassword" type="password" placeholder="Confirm Password">
+                </p>
+                <input @click="register" type="button" value="Register">
+            </form>
         </div>
-        <Footer></Footer>
     </div>
 </template>
 <script>
-    import Header from '../components/Header'
-    import Footer from '../components/Footer'
-
     export default {
         data() {
             return {
@@ -41,9 +34,7 @@
                 email: ''
             }
         },
-        components: {
-            Header, Footer
-        },
+        components: {},
         methods: {
             register() {
                 var self = this;
