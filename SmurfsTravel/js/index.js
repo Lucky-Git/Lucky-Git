@@ -30,7 +30,7 @@ $(()=>{
 			$(".destination>ul:eq(1)").html(html);
 		},
 		error:function(){
-			alert("网络故障请检查");
+			// alert("网络故障请检查");
 		}
 	});
 	$(".header .order_once").click(function(){
@@ -126,7 +126,7 @@ $(()=>{
 			
 		},
 		error:function(){
-			alert("网络故障请检查");
+			// alert("网络故障请检查");
 		}
 	});
 	//请求底部总结
@@ -151,7 +151,7 @@ $(()=>{
 			$(".sumary>ul").html(html);
 		},
 		error:function(){
-			alert("网络故障请检查");
+			// alert("网络故障请检查");
 		}
 	})
 
